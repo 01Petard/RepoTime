@@ -8,6 +8,14 @@ export const activityLevels = [
   { label: '超过 1 年', radius: 4, opacity: .28, glow: .04 },
 ] as const
 
+// The explorable graph uses a wider visual range than the homepage preview.
+export const universeActivityLevels = activityLevels.map((level, tier) => ({
+  ...level,
+  radius: [22, 14, 8, 4.5, 2.5][tier]!,
+  opacity: [1, .88, .65, .4, .22][tier]!,
+  glow: [1, .65, .3, .1, .02][tier]!,
+}))
+
 // Calendar-month boundaries in UTC, clamped for shorter months (e.g. March 31 -> February 28).
 function monthsBefore(date: Date, months: number) {
   const result = new Date(date)

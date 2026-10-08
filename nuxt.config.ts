@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-10-08',
   ssr: true,
   modules: ['@nuxt/ui'],
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', '~/assets/css/cosmos.css'],
   ui: { fonts: false },
   colorMode: { preference: 'dark', fallback: 'dark' },
   icon: { provider: 'none', fallbackToApi: false, clientBundle: { icons: ['lucide:x', 'lucide:chevron-down', 'lucide:chevron-up', 'lucide:check', 'lucide:chevrons-up-down'] } },

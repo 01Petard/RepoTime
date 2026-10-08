@@ -58,29 +58,53 @@ describe('curation contract', () => {
 
 describe('universe coordinates', () => {
   const projects = buildArchive(configSchema.parse(base), user, Array.from({ length: 40 }, (_, index) => repo(index + 1)), '').projects
-  it('is independent of input ordering and keeps equal dates at equal X coordinates', () => {
+  it('scatters equal dates and remains deterministic regardless of input order', () => {
     const layout = layoutUniverse(projects)
     expect(layoutUniverse([...projects].reverse())).toEqual(layout)
-    expect(new Set(layout.nodes.map(node => node.x)).size).toBe(1)
-    expect(new Set(layout.nodes.map(node => node.y)).size).toBe(40)
-    for (const [index, node] of layout.nodes.entries()) for (const other of layout.nodes.slice(index + 1)) expect(Math.hypot(node.x - other.x, node.y - other.y)).toBeGreaterThan(node.radius + other.radius)
+    expect(new Set(layout.nodes.map(node => node.x)).size).toBe(projects.length)
+    expect(new Set(layout.nodes.map(node => node.y)).size).toBe(projects.length)
+    expect(layoutUniverse(projects.map(project => ({ ...project, date: '2030-01-01T00:00:00Z' }))).nodes.map(({ x, y }) => [x, y]))
+      .toEqual(layout.nodes.map(({ x, y }) => [x, y]))
   })
-  it('increases X with date and handles empty data', () => {
-    const archive = buildArchive(configSchema.parse(base), user, [repo(1, '2019-01-01T00:00:00Z'), repo(2)], '')
-    expect(layoutUniverse(archive.projects).nodes[0]!.x).toBeLessThan(layoutUniverse(archive.projects).nodes[1]!.x)
+  it('handles empty and single-project archives', () => {
     expect(layoutUniverse([]).nodes).toEqual([])
+    expect(layoutUniverse([]).links).toEqual([])
+    const layout = layoutUniverse(projects.slice(0, 1))
+    expect(layout.nodes).toHaveLength(1)
+    expect(layout.links).toEqual([])
+    expect(Number.isFinite(layout.nodes[0]!.x)).toBe(true)
   })
-  it('keeps permanent label rectangles apart without changing time coordinates', () => {
-    const repositories = Array.from({ length: 12 }, (_, index) => ({ ...repo(index + 1, `2026-${String(index + 1).padStart(2, '0')}-01T00:00:00Z`), name: `A long project name ${index + 1}` }))
-    const nodes = layoutUniverse(buildArchive(configSchema.parse(base), user, repositories, '').projects, 1400).nodes
-    expect(nodes.some(node => node.labelAnchor === 'end')).toBe(true)
-    for (const [index, node] of nodes.entries()) for (const other of nodes.slice(index + 1)) {
-      if (node.y !== other.y) continue
-      const left = node.x + Math.min(-20, node.labelX - (node.labelAnchor === 'end' ? node.labelWidth : 0))
-      const right = node.x + Math.max(20, node.labelX + (node.labelAnchor === 'start' ? node.labelWidth : 0))
-      const otherLeft = other.x + Math.min(-20, other.labelX - (other.labelAnchor === 'end' ? other.labelWidth : 0))
-      const otherRight = other.x + Math.max(20, other.labelX + (other.labelAnchor === 'start' ? other.labelWidth : 0))
-      expect(right < otherLeft || otherRight < left).toBe(true)
+  it('keeps stars and permanent labels apart and inside the map', () => {
+    const repositories = Array.from({ length: 84 }, (_, index) => ({ ...repo(index + 1), name: `A long project name ${index + 1}` }))
+    const layout = layoutUniverse(buildArchive(configSchema.parse(base), user, repositories, '').projects, 1400)
+    for (const [index, node] of layout.nodes.entries()) {
+      expect(node.x - node.labelWidth / 2).toBeGreaterThanOrEqual(0)
+      expect(node.x + node.labelWidth / 2).toBeLessThanOrEqual(layout.width)
+      expect(node.y).toBeGreaterThan(30)
+      expect(node.y + 50).toBeLessThan(layout.height)
+      for (const other of layout.nodes.slice(index + 1)) {
+        expect(Math.abs(node.x - other.x) > (node.labelWidth + other.labelWidth) / 2 + 18 || Math.abs(node.y - other.y) > 88).toBe(true)
+      }
+    }
+  })
+  it('fills a landscape rectangle, including its corners', () => {
+    const layout = layoutUniverse(buildArchive(configSchema.parse(base), user, Array.from({ length: 84 }, (_, index) => repo(index + 1)), '').projects, 1400)
+    expect(layout.width / layout.height).toBeCloseTo(16 / 9)
+    for (const right of [false, true]) for (const bottom of [false, true]) {
+      expect(layout.nodes.some(node => (right ? node.x > layout.width * .75 : node.x < layout.width * .25)
+        && (bottom ? node.y > layout.height * .75 : node.y < layout.height * .25))).toBe(true)
+    }
+  })
+  it('connects nearby projects with the same known language, without duplicate edges', () => {
+    const layout = layoutUniverse(projects.map((project, index) => ({ ...project, category: index === 0 ? '未分类' : 'Java' })))
+    expect(layout.links.length).toBeGreaterThan(0)
+    const keys = layout.links.map(link => [link.from.project.id, link.to.project.id].sort().join(':'))
+    expect(new Set(keys).size).toBe(keys.length)
+    for (const link of layout.links) {
+      expect(link.from.project.category).toBe('Java')
+      expect(link.to.project.category).toBe('Java')
+      expect(link.from.project.id).not.toBe(link.to.project.id)
+      expect(link.label).toBe('相近技术项目')
     }
   })
 })

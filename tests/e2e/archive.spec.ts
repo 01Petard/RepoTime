@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import { archiveStars } from '../../shared/stars'
+import { archiveStars, universeActivityLevels } from '../../shared/stars'
 import type { Archive } from '../../shared/archive'
 import snapshot from '../../.generated/archive.json' with { type: 'json' }
 const owner = snapshot.user.login
@@ -58,7 +58,7 @@ test('filters persist in URLs and the timeline can expand months', async ({ page
 test('desktop nodes support keyboard selection, direct repository links, zoom, reset and fullscreen', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name === 'mobile' || !project, 'Mobile uses the accessible project list')
   await page.goto(base)
-  await expect(page.getByRole('button', { name: '列表', exact: true })).toHaveAttribute('aria-pressed', 'true')
+  await expect(page.getByRole('button', { name: '网格', exact: true })).toHaveAttribute('aria-pressed', 'true')
   await expect(page.locator('.browse-projects')).toBeVisible()
   await expect(page.locator('.desktop-star-map')).not.toBeVisible()
   await page.getByRole('button', { name: '星图', exact: true }).click()
@@ -67,12 +67,12 @@ test('desktop nodes support keyboard selection, direct repository links, zoom, r
   const labels = await page.locator('.star-node').evaluateAll(nodes => nodes.map(node => ({ id: node.getAttribute('data-project'), texts: Array.from(node.querySelectorAll('.star-label text')).map(text => text.textContent) })))
   for (const label of labels) {
     const entry = snapshot.projects.find(project => project.id === label.id)!
-    expect(label.texts).toEqual([entry.title, entry.date.slice(0, 10)])
+    expect(label.texts).toEqual([entry.title])
   }
   const activity = archiveStars(snapshot as unknown as Archive)
   const stars = await page.locator('.star-node').evaluateAll(nodes => nodes.map(node => ({ id: node.getAttribute('data-project')!, tier: node.getAttribute('data-activity'), opacity: node.querySelector('.project-star')?.getAttribute('opacity'), scale: node.querySelector('.project-star')?.getAttribute('transform') })))
   for (const star of stars) {
-    const expected = activity.get(star.id)!
+    const expected = { ...activity.get(star.id)!, ...universeActivityLevels[activity.get(star.id)!.tier]! }
     expect(star.tier).toBe(String(expected.tier))
     expect(star.opacity).toBe(String(expected.opacity))
     expect(star.scale).toBe(`scale(${expected.radius / 12})`)
@@ -80,6 +80,39 @@ test('desktop nodes support keyboard selection, direct repository links, zoom, r
   const viewport = page.locator('.universe-map > svg > g')
   await expect(viewport).toHaveAttribute('transform', /scale\(/)
   const initialTransform = await viewport.getAttribute('transform')
+  await expect(page.locator('.map-year, .map-band')).toHaveCount(0)
+  const labelBounds = await page.locator('.universe-map .star-label:not(.label-distant) text').evaluateAll(labels => labels.map(label => {
+    const rect = label.getBoundingClientRect()
+    return { left: rect.left, right: rect.right, top: rect.top, bottom: rect.bottom }
+  }))
+  for (const [index, label] of labelBounds.entries()) {
+    for (const other of labelBounds.slice(index + 1)) {
+      expect(label.right <= other.left || other.right <= label.left || label.bottom <= other.top || other.bottom <= label.top).toBe(true)
+    }
+  }
+  const projectNames = await page.locator('.universe-map .star-node text').allTextContents()
+  expect(await page.locator('.universe-map > svg text').allTextContents()).toEqual(projectNames)
+  expect(projectNames.every(name => snapshot.projects.some(project => project.title === name))).toBe(true)
+  await expect(page.locator('.map-link').first()).toBeVisible()
+  const map = page.locator('.universe-map > svg')
+  await map.scrollIntoViewIfNeeded()
+  const box = (await map.boundingBox())!
+  expect(box.width / box.height).toBeCloseTo(16 / 9, 1)
+  await page.mouse.move(box.x + 8, box.y + 8)
+  const scrollBefore = await page.evaluate(() => window.scrollY)
+  await page.mouse.wheel(0, 220)
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(scrollBefore)
+  await expect(viewport).toHaveAttribute('transform', initialTransform!)
+  await map.scrollIntoViewIfNeeded()
+  const dragBox = (await map.boundingBox())!
+  await page.mouse.move(dragBox.x + 8, dragBox.y + 8)
+  await page.mouse.down()
+  await page.mouse.move(dragBox.x + 88, dragBox.y + 68, { steps: 6 })
+  await page.mouse.up()
+  await expect(viewport).not.toHaveAttribute('transform', initialTransform!)
+  await page.getByRole('button', { name: '复位星图' }).click()
+  await expect(viewport).toHaveAttribute('transform', initialTransform!)
+
   const node = page.locator(`[data-project="${project!.id}"]`)
   await node.focus()
   await page.context().route('https://github.com/**', route => route.fulfill({ contentType: 'text/html', body: '<html><title>Repository</title></html>' }))
@@ -138,8 +171,16 @@ test('project details show the latest three commits from the static snapshot', a
     const row = section.locator('.commit-row').nth(index)
     await expect(row.locator('.commit-title')).toHaveAttribute('href', commit.url)
     await expect(row.locator('time')).toHaveAttribute('datetime', commit.date)
+    await expect(row.locator('time')).toHaveText(new Date(commit.date).toISOString().replace('T', ' ').replace('.000Z', ' UTC'))
     await expect(row).toContainText(commit.author)
     await expect(row.locator('code')).toHaveText(commit.sha.slice(0, 7))
+  }
+  expect(await page.locator('body').evaluate(element => element.scrollWidth <= window.innerWidth)).toBe(true)
+  await page.goto('/')
+  await expect(page.locator('.home-commit time')).toHaveCount(Math.min(3, snapshot.repositories.reduce((total, repo) => total + repo.commits.length, 0)))
+  for (const time of await page.locator('.home-commit time').all()) {
+    const date = (await time.getAttribute('datetime'))!
+    await expect(time).toHaveText(new Date(date).toISOString().replace('T', ' ').replace('.000Z', ' UTC'))
   }
   expect(await page.locator('body').evaluate(element => element.scrollWidth <= window.innerWidth)).toBe(true)
   expect(requests).toEqual([])
@@ -156,18 +197,64 @@ test('project lists default to activity and preserve creation sorting with filte
   const titles = () => page.locator('.browse-grid .project-card h3').allTextContents()
   await page.goto(base)
   const sort = page.getByRole('combobox', { name: '项目列表排序' })
-  await expect(sort).toHaveValue('activity')
-  expect((await titles()).map(title => title.trim())).toEqual(expected('activity'))
-  await sort.selectOption('created')
+  await expect(sort).toContainText('最近活跃')
+  expect((await titles()).map(title => title.trim())).toEqual(expected('activity').slice(0, 12))
+  await sort.click()
+  await expect(page.getByRole('option', { name: '最近活跃', exact: true })).toHaveAttribute('aria-selected', 'true')
+  await page.keyboard.press('Escape')
+  await expect(page.getByRole('listbox')).toHaveCount(0)
+  await expect(sort).toBeFocused()
+  await expect(sort).toContainText('最近活跃')
+  await sort.press('ArrowDown')
+  await expect(page.getByRole('option', { name: '最近活跃', exact: true })).toBeFocused()
+  await page.keyboard.press('End')
+  await expect(page.getByRole('option', { name: '创建时间', exact: true })).toBeFocused()
+  await page.keyboard.press('Enter')
   await expect(page).toHaveURL(/sort=created/)
-  await expect.poll(async () => (await titles()).map(title => title.trim())).toEqual(expected('created'))
+  await expect.poll(async () => (await titles()).map(title => title.trim())).toEqual(expected('created').slice(0, 12))
   await page.reload()
-  await expect(sort).toHaveValue('created')
+  await expect(sort).toContainText('创建时间')
   await page.getByRole('searchbox', { name: '搜索项目' }).fill('unlikely-to-match-any-project')
   await expect(page).toHaveURL(/q=unlikely/)
-  await expect(sort).toHaveValue('created')
-  await sort.selectOption('activity')
+  await expect(sort).toContainText('创建时间')
+  await sort.click()
+  await page.getByRole('option', { name: '最近活跃', exact: true }).click()
   await expect.poll(() => new URL(page.url()).searchParams.get('sort')).toBeNull()
   expect(new URL(page.url()).searchParams.get('q')).toBe('unlikely-to-match-any-project')
   expect(await page.locator('body').evaluate(element => element.scrollWidth <= window.innerWidth)).toBe(true)
+})
+
+
+test('universe progressively renders projects, appends on scroll and resets after sorting', async ({ page }) => {
+  await page.goto(base)
+  const cards = page.locator('.browse-grid .project-card')
+  await expect(cards).toHaveCount(Math.min(12, snapshot.projects.filter(project => !project.fork).length))
+  await expect(page.locator('.star-node')).toHaveCount(0)
+  const initial = await cards.count()
+  test.skip(snapshot.projects.filter(project => !project.fork).length <= initial, 'Archive fits in the first batch')
+  await page.locator('.progressive-loader').scrollIntoViewIfNeeded()
+  await expect.poll(() => cards.count()).toBeGreaterThan(initial)
+  const ids = await cards.evaluateAll(cards => cards.map(card => card.getAttribute('href')))
+  expect(new Set(ids).size).toBe(ids.length)
+  await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }))
+  await page.getByRole('combobox', { name: '项目列表排序' }).click()
+  await page.getByRole('option', { name: '创建时间', exact: true }).click()
+  await expect(cards).toHaveCount(12)
+  await page.getByRole('searchbox', { name: '搜索项目' }).fill('TrackFit')
+  await expect(cards).toHaveCount(1)
+  await expect(page.locator('.progressive-loader')).toContainText('已展示全部记录')
+})
+
+test('timeline appends events on scroll and renders an unloaded year before jumping', async ({ page }) => {
+  await page.goto(`${base}/timeline`)
+  const entries = page.locator('.timeline-entry')
+  await expect(entries).toHaveCount(12)
+  await page.locator('.progressive-loader').scrollIntoViewIfNeeded()
+  await expect.poll(() => entries.count()).toBeGreaterThan(12)
+  const year = page.locator('.year-nav button').last()
+  const target = (await year.textContent())!.trim().slice(0, 4)
+  await year.click()
+  await expect(page.locator(`#year-${target}`)).toBeInViewport()
+  const ids = await entries.evaluateAll(entries => entries.map(entry => entry.getAttribute('data-event')))
+  expect(new Set(ids).size).toBe(ids.length)
 })

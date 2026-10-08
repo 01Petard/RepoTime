@@ -16,11 +16,11 @@ const signals = [
 ] as const
 
 const colors = [
-  { ink: '#a9cfed', surface: '#152737' },
-  { ink: '#a9d7ca', surface: '#152c2b' },
-  { ink: '#e4c49f', surface: '#2b251e' },
-  { ink: '#c5bcdf', surface: '#242236' },
-  { ink: '#dfb2bb', surface: '#30222c' },
+  { ink: '#87c8ff', surface: '#152737' },
+  { ink: '#91e5cc', surface: '#152c2b' },
+  { ink: '#e7b5c8', surface: '#2b251e' },
+  { ink: '#bda4fb', surface: '#242236' },
+  { ink: '#f2aed0', surface: '#30222c' },
 ] as const
 
 export function coverDesign(id: string, description: string) {

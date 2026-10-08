@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { activityLevels, projectActivity } from '../../shared/stars'
+import { activityLevels, universeActivityLevels, projectActivity } from '../../shared/stars'
 import { buildArchive, configSchema } from '../../shared/archive'
 import type { GitHubUser, Repository } from '../../shared/archive'
 const user: GitHubUser = { id: 1, login: 'owner', name: 'Owner', avatarUrl: 'https://github.com/avatar.png', url: 'https://github.com/owner', bio: '', createdAt: '2019-01-01T00:00:00Z' }
@@ -36,4 +36,12 @@ describe('five update brightness levels', () => {
       for (const key of ['radius', 'opacity', 'glow'] as const) expect(activityLevels[index]![key]).toBeLessThan(activityLevels[index - 1]![key])
     }
   })
+})
+
+it('amplifies the five graph tiers without changing activity labels or homepage stars', () => {
+  expect(universeActivityLevels.map(level => level.label)).toEqual(activityLevels.map(level => level.label))
+  expect(universeActivityLevels[0]!.radius / universeActivityLevels[4]!.radius).toBeGreaterThan(8)
+  for (let index = 1; index < universeActivityLevels.length; index++) {
+    for (const key of ['radius', 'opacity', 'glow'] as const) expect(universeActivityLevels[index]![key]).toBeLessThan(universeActivityLevels[index - 1]![key])
+  }
 })

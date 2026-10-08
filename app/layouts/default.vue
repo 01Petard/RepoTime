@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { archive, universePath, timelinePath } = useArchive()
-const brand = archive.site.brand ?? archive.user.login
+const brand = '代码时光机'
 </script>
 <template>
   <div class="site-shell">
