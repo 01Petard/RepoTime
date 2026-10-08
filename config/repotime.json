@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "owner": "01Petard",
+  "site": {
+    "title": "01Petard · 开发者档案",
+    "description": "将公开仓库整理为可探索的开发档案，沿时间回望项目与想法。",
+    "headline": "每一行代码，\n都有来处。",
+    "intro": "沿着公开仓库留下的时间坐标，探索项目、技术与持续生长的想法。"
+  },
+  "excludeRepositoryIds": [],
+  "projects": [
+    {
+      "id": "repotime",
+      "title": "项目时光机",
+      "repositoryIds": [
+        1409843462
+      ],
+      "featured": true
+    },
+    {
+      "id": "e-hentai-fetcher",
+      "title": "E-Hentai-Fetcher",
+      "repositoryIds": [
+        1391090135
+      ],
+      "featured": true
+    },
+    {
+      "id": "autofill",
+      "title": "Autofill",
+      "repositoryIds": [
+        1330454916
+      ],
+      "featured": true
+    },
+    {
+      "id": "hajimi-encoder",
+      "title": "hajimi-encoder",
+      "repositoryIds": [
+        1177463497
+      ],
+      "featured": true
+    },
+    {
+      "id": "trackfit",
+      "title": "TrackFit",
+      "repositoryIds": [
+        1322390092
+      ],
+      "featured": true
+    },
+    {
+      "id": "blog-star-trail",
+      "title": "blog-star-trail",
+      "repositoryIds": [
+        954458425
+      ],
+      "featured": true
+    },
+    {
+      "id": "tankwar",
+      "title": "TankWar",
+      "repositoryIds": [
+        230755726
+      ],
+      "featured": false
+    },
+    {
+      "id": "flight-booking",
+      "title": "Flight Booking",
+      "repositoryIds": [
+        1156966568,
+        1156967537
+      ],
+      "featured": false
+    },
+    {
+      "id": "ai-orchestrator",
+      "title": "AI Orchestrator",
+      "repositoryIds": [
+        1358837986,
+        1358838255
+      ],
+      "featured": false
+    },
+    {
+      "id": "backflow",
+      "title": "Backflow",
+      "repositoryIds": [
+        1402580298
+      ],
+      "featured": false
+    }
+  ],
+  "relations": []
+}

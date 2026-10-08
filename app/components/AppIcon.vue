@@ -1,0 +1,6 @@
+<script setup lang="ts">
+import { ArrowUpRight, ArrowRight, ArrowLeft, ExternalLink, Plus, Minus, RotateCcw, Maximize2, Minimize2, X, Search, Star, Archive, GitFork, CalendarDays, ChevronRight, Grid2X2, List, GitBranch, Check, Orbit, Github, Plane, Activity, ListTodo, Wallet, Gamepad2, ShoppingBag, Music, Camera, BrainCircuit, NotebookPen, Database, GraduationCap, Terminal, Code2, Copy, Pause, Play } from 'lucide-vue-next'
+const icons = { arrow: ArrowUpRight, right: ArrowRight, left: ArrowLeft, external: ExternalLink, plus: Plus, minus: Minus, reset: RotateCcw, expand: Maximize2, collapse: Minimize2, close: X, search: Search, star: Star, archive: Archive, fork: GitFork, calendar: CalendarDays, chevron: ChevronRight, grid: Grid2X2, list: List, branch: GitBranch, check: Check, orbit: Orbit, github: Github, plane: Plane, activity: Activity, form: ListTodo, wallet: Wallet, game: Gamepad2, shopping: ShoppingBag, music: Music, camera: Camera, brain: BrainCircuit, notebook: NotebookPen, database: Database, graduation: GraduationCap, terminal: Terminal, code: Code2, copy: Copy, pause: Pause, play: Play }
+withDefaults(defineProps<{ name: keyof typeof icons; size?: number }>(), { size: 18 })
+</script>
+<template><component :is="icons[name]" :size="size" :stroke-width="1.6" aria-hidden="true" /></template>

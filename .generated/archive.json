@@ -1,0 +1,4917 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-08T07:20:27.866Z",
+  "site": {
+    "title": "01Petard · 开发者档案",
+    "description": "将公开仓库整理为可探索的开发档案，沿时间回望项目与想法。",
+    "headline": "每一行代码，\n都有来处。",
+    "intro": "沿着公开仓库留下的时间坐标，探索项目、技术与持续生长的想法。"
+  },
+  "user": {
+    "id": 55228600,
+    "login": "01Petard",
+    "name": "01Petard",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/55228600?v=4",
+    "url": "https://github.com/01Petard",
+    "bio": "Software Engineer, Open Source Explorer, Technology Fan and Nijigen Doujinverse Enthusiast.",
+    "createdAt": "2019-09-12T06:49:46Z"
+  },
+  "repositories": [
+    {
+      "id": 230755726,
+      "name": "TankWar",
+      "fullName": "01Petard/TankWar",
+      "description": "java class final assignment",
+      "url": "https://github.com/01Petard/TankWar",
+      "homepage": null,
+      "createdAt": "2019-12-29T13:42:36Z",
+      "pushedAt": "2020-03-16T13:00:58Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "afbbd7c0a6cf4d8c8a8a6abfdcf6987be56a68bb",
+          "message": "Update README.md",
+          "date": "2020-03-16T13:00:57Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/TankWar/commit/afbbd7c0a6cf4d8c8a8a6abfdcf6987be56a68bb"
+        },
+        {
+          "sha": "8e3a4120e36797739d6cd30481d25e45c4d4d727",
+          "message": "Update README.md",
+          "date": "2020-03-16T03:52:23Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/TankWar/commit/8e3a4120e36797739d6cd30481d25e45c4d4d727"
+        },
+        {
+          "sha": "d5226192ac29aa6b18f658dec93821c9e498b2da",
+          "message": "Create README.md",
+          "date": "2019-12-29T13:48:36Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/TankWar/commit/d5226192ac29aa6b18f658dec93821c9e498b2da"
+        }
+      ]
+    },
+    {
+      "id": 255229751,
+      "name": "AndroidStudy",
+      "fullName": "01Petard/AndroidStudy",
+      "description": "",
+      "url": "https://github.com/01Petard/AndroidStudy",
+      "homepage": null,
+      "createdAt": "2020-04-13T04:19:50Z",
+      "pushedAt": "2022-08-27T16:55:05Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "70f9de533f112bc425fe765cf681b549803f3a70",
+          "message": "Update README.md",
+          "date": "2022-08-27T16:55:05Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/AndroidStudy/commit/70f9de533f112bc425fe765cf681b549803f3a70"
+        },
+        {
+          "sha": "28e21521d189c1cb2b35110a14847ccda7a7bf2c",
+          "message": "Update README.md",
+          "date": "2022-08-27T16:54:50Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/AndroidStudy/commit/28e21521d189c1cb2b35110a14847ccda7a7bf2c"
+        },
+        {
+          "sha": "5828770ba6f096d584cd12e242132ea52a1b1bc5",
+          "message": "week10-菜单(优化)",
+          "date": "2020-04-26T05:18:33Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/AndroidStudy/commit/5828770ba6f096d584cd12e242132ea52a1b1bc5"
+        }
+      ]
+    },
+    {
+      "id": 519534005,
+      "name": "imageURL",
+      "fullName": "01Petard/imageURL",
+      "description": "通过PicGo托管的个人图床",
+      "url": "https://github.com/01Petard/imageURL",
+      "homepage": null,
+      "createdAt": "2022-07-30T14:11:29Z",
+      "pushedAt": "2026-09-29T00:59:58Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "dbdf412f8e218a3d0486cca430f37d1b267d7747",
+          "message": "Upload by PicGo",
+          "date": "2026-09-29T00:59:57Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/imageURL/commit/dbdf412f8e218a3d0486cca430f37d1b267d7747"
+        },
+        {
+          "sha": "fb62f9d122d61357956e9f6d245a3d766e89d5a4",
+          "message": "Upload by PicGo",
+          "date": "2026-09-29T00:59:07Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/imageURL/commit/fb62f9d122d61357956e9f6d245a3d766e89d5a4"
+        },
+        {
+          "sha": "7752690d732c9df5b10bfa0a560dc7ca8d10c17a",
+          "message": "Upload by PicGo",
+          "date": "2026-09-29T00:58:33Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/imageURL/commit/7752690d732c9df5b10bfa0a560dc7ca8d10c17a"
+        }
+      ]
+    },
+    {
+      "id": 520379491,
+      "name": "01Petard.github.io",
+      "fullName": "01Petard/01Petard.github.io",
+      "description": "个人博客",
+      "url": "https://github.com/01Petard/01Petard.github.io",
+      "homepage": null,
+      "createdAt": "2022-08-02T06:31:34Z",
+      "pushedAt": "2024-11-21T07:02:17Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "b9e200cd6fcae5a7e29928d574a244692c61ab8d",
+          "message": "Site updated: 2024-11-21 15:02:11",
+          "date": "2024-11-21T07:02:12Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/01Petard.github.io/commit/b9e200cd6fcae5a7e29928d574a244692c61ab8d"
+        },
+        {
+          "sha": "dee6014e7bb679b19420feb9fb0290072fdb25a1",
+          "message": "Site updated: 2024-11-21 14:56:52",
+          "date": "2024-11-21T06:56:52Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/01Petard.github.io/commit/dee6014e7bb679b19420feb9fb0290072fdb25a1"
+        },
+        {
+          "sha": "0cda2c2e2e4298dd2fa85e9a6140ca34f6824bb7",
+          "message": "Site updated: 2024-11-16 23:10:16",
+          "date": "2024-11-16T15:10:16Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/01Petard.github.io/commit/0cda2c2e2e4298dd2fa85e9a6140ca34f6824bb7"
+        }
+      ]
+    },
+    {
+      "id": 526821202,
+      "name": "blog-hexo-butterfly",
+      "fullName": "01Petard/blog-hexo-butterfly",
+      "description": "基于Hexo框架，采用butterfly 4.3美化，并经过大量魔改后的个人博客",
+      "url": "https://github.com/01Petard/blog-hexo-butterfly",
+      "homepage": "https://01petard.github.io/",
+      "createdAt": "2022-08-20T04:08:03Z",
+      "pushedAt": "2025-06-02T16:07:41Z",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": true,
+      "stars": 1,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "47ec6d6cf7caf5ee8bc2dbf8cf004e43365d8bed",
+          "message": "Update README.md",
+          "date": "2025-06-02T16:07:40Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/blog-hexo-butterfly/commit/47ec6d6cf7caf5ee8bc2dbf8cf004e43365d8bed"
+        },
+        {
+          "sha": "2d498a7dee2f8891e2a4d54d8efc123662f29822",
+          "message": "Update README.md",
+          "date": "2025-06-02T16:07:18Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/blog-hexo-butterfly/commit/2d498a7dee2f8891e2a4d54d8efc123662f29822"
+        },
+        {
+          "sha": "f2431f702a393778c19878e668a6feee6e465a2f",
+          "message": "更新pnpm包版本",
+          "date": "2024-12-16T15:16:34Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/blog-hexo-butterfly/commit/f2431f702a393778c19878e668a6feee6e465a2f"
+        }
+      ]
+    },
+    {
+      "id": 620882845,
+      "name": "1.FaceRecognition",
+      "fullName": "01Petard/1.FaceRecognition",
+      "description": "",
+      "url": "https://github.com/01Petard/1.FaceRecognition",
+      "homepage": null,
+      "createdAt": "2023-03-29T14:56:19Z",
+      "pushedAt": "2019-09-25T11:16:57Z",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "511a6bf1fccebbb86783559d358e73be60d6bc44",
+          "message": "2019/09/25,对align_my.py进行了更改,主要修复了，当输入文加夹路径为2个/时不能处理的问题",
+          "date": "2019-09-25T11:13:05Z",
+          "author": "DESKTOP-9KI13CR\\zwh",
+          "url": "https://github.com/01Petard/1.FaceRecognition/commit/511a6bf1fccebbb86783559d358e73be60d6bc44"
+        },
+        {
+          "sha": "f4507f037f2279ee9bc498ba0a0a6aa0929200a6",
+          "message": "服务器第一次提交2019/09/13",
+          "date": "2019-09-13T06:25:02Z",
+          "author": "DESKTOP-9KI13CR\\zwh",
+          "url": "https://github.com/01Petard/1.FaceRecognition/commit/f4507f037f2279ee9bc498ba0a0a6aa0929200a6"
+        }
+      ]
+    },
+    {
+      "id": 652464723,
+      "name": "Android_Frameworks",
+      "fullName": "01Petard/Android_Frameworks",
+      "description": "安卓开发学习中常用的框架、界面布局",
+      "url": "https://github.com/01Petard/Android_Frameworks",
+      "homepage": null,
+      "createdAt": "2023-06-12T06:08:29Z",
+      "pushedAt": "2023-06-12T06:13:36Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "3403052a82389c77702f12215152a26049f353e0",
+          "message": "archived",
+          "date": "2023-06-12T06:13:03Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Android_Frameworks/commit/3403052a82389c77702f12215152a26049f353e0"
+        }
+      ]
+    },
+    {
+      "id": 652468280,
+      "name": "Android_DevPictures",
+      "fullName": "01Petard/Android_DevPictures",
+      "description": "安卓开发学习中常用的图片、icon",
+      "url": "https://github.com/01Petard/Android_DevPictures",
+      "homepage": null,
+      "createdAt": "2023-06-12T06:18:47Z",
+      "pushedAt": "2023-06-12T06:20:05Z",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "957e7583609e7ac6d26554e42df98eca0526595e",
+          "message": "archived",
+          "date": "2023-06-12T06:19:43Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Android_DevPictures/commit/957e7583609e7ac6d26554e42df98eca0526595e"
+        }
+      ]
+    },
+    {
+      "id": 652469188,
+      "name": "Homemaker",
+      "fullName": "01Petard/Homemaker",
+      "description": "一个安卓上的外卖app项目，项目名称：A类-随手快递APP平台系统-GeekStudio队源代码",
+      "url": "https://github.com/01Petard/Homemaker",
+      "homepage": null,
+      "createdAt": "2023-06-12T06:21:04Z",
+      "pushedAt": "2023-06-12T06:22:18Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 1,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "5ea65b1b2139ea4f93cdb284e90aa7ef2cb1cbba",
+          "message": "archived",
+          "date": "2023-06-12T06:21:49Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Homemaker/commit/5ea65b1b2139ea4f93cdb284e90aa7ef2cb1cbba"
+        }
+      ]
+    },
+    {
+      "id": 652470120,
+      "name": "KanMeiTu",
+      "fullName": "01Petard/KanMeiTu",
+      "description": "安卓入门学习项目，可以查看几张网页的图片",
+      "url": "https://github.com/01Petard/KanMeiTu",
+      "homepage": null,
+      "createdAt": "2023-06-12T06:23:50Z",
+      "pushedAt": "2023-06-12T06:27:08Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "482ca32f004ec248eef8e5a9dc23f3f872405328",
+          "message": "archived",
+          "date": "2023-06-12T06:24:26Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/KanMeiTu/commit/482ca32f004ec248eef8e5a9dc23f3f872405328"
+        },
+        {
+          "sha": "3cc3bcf98b836de2f9ee9fd4e5dcfd5f185238a3",
+          "message": "Add splash.",
+          "date": "2020-04-06T02:31:21Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/KanMeiTu/commit/3cc3bcf98b836de2f9ee9fd4e5dcfd5f185238a3"
+        },
+        {
+          "sha": "11acdb498d65616192cbf416cd3f1d9cfda80fba",
+          "message": "Add splash.",
+          "date": "2020-04-06T02:30:32Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/KanMeiTu/commit/11acdb498d65616192cbf416cd3f1d9cfda80fba"
+        }
+      ]
+    },
+    {
+      "id": 652471515,
+      "name": "News",
+      "fullName": "01Petard/News",
+      "description": "本科期间的安卓课程大作业，是一个具有联网功能的新闻类app",
+      "url": "https://github.com/01Petard/News",
+      "homepage": null,
+      "createdAt": "2023-06-12T06:27:58Z",
+      "pushedAt": "2023-11-08T12:54:37Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 3,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "93998c766945cce0c9b37b1c4b5880be4be4ddbe",
+          "message": "Update README.md",
+          "date": "2023-11-08T12:54:37Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/News/commit/93998c766945cce0c9b37b1c4b5880be4be4ddbe"
+        },
+        {
+          "sha": "e166b14fe4fb14fc60aaea72f4569d564001bde6",
+          "message": "Update README.md",
+          "date": "2023-11-08T12:54:29Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/News/commit/e166b14fe4fb14fc60aaea72f4569d564001bde6"
+        },
+        {
+          "sha": "cafb2001f19ad7192aee6f63095d3e2dda7c15b2",
+          "message": "archived",
+          "date": "2023-06-12T06:29:16Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/News/commit/cafb2001f19ad7192aee6f63095d3e2dda7c15b2"
+        }
+      ]
+    },
+    {
+      "id": 652472751,
+      "name": "Picturesque-Zhejiang",
+      "fullName": "01Petard/Picturesque-Zhejiang",
+      "description": "2019年浙江省大学生竞赛诗画浙江，“浙秀汇”队伍安卓端项目源码，仓库作者为队伍队长",
+      "url": "https://github.com/01Petard/Picturesque-Zhejiang",
+      "homepage": null,
+      "createdAt": "2023-06-12T06:31:31Z",
+      "pushedAt": "2023-06-12T06:50:36Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "3d25617240a7ccaebb18f20e4a8639311697da1d",
+          "message": "error files in upload",
+          "date": "2023-06-12T06:49:52Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Picturesque-Zhejiang/commit/3d25617240a7ccaebb18f20e4a8639311697da1d"
+        },
+        {
+          "sha": "85afd64bc965ad50e1c00231bc983386a85c8d2d",
+          "message": "archived",
+          "date": "2023-06-12T06:31:44Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Picturesque-Zhejiang/commit/85afd64bc965ad50e1c00231bc983386a85c8d2d"
+        }
+      ]
+    },
+    {
+      "id": 654836246,
+      "name": "Revit2dev-ZBIM",
+      "fullName": "01Petard/Revit2dev-ZBIM",
+      "description": "使用Revit API进行二次开发，对工程建模进行测试",
+      "url": "https://github.com/01Petard/Revit2dev-ZBIM",
+      "homepage": null,
+      "createdAt": "2023-06-17T05:02:36Z",
+      "pushedAt": "2023-08-21T15:25:13Z",
+      "language": "C#",
+      "fork": false,
+      "archived": true,
+      "stars": 1,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "f518bbde7c315d0d9a6e6be8b51f62f7579099d9",
+          "message": "技术文档撰写完成后的状态",
+          "date": "2023-08-21T15:25:09Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Revit2dev-ZBIM/commit/f518bbde7c315d0d9a6e6be8b51f62f7579099d9"
+        },
+        {
+          "sha": "bf0296590a3e96b423cc684e8651ab46b7cb9f2d",
+          "message": "添加Revit2018的API",
+          "date": "2023-08-12T03:18:07Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Revit2dev-ZBIM/commit/bf0296590a3e96b423cc684e8651ab46b7cb9f2d"
+        },
+        {
+          "sha": "595a87097ad91e0936db297ea8badf510a6cd943",
+          "message": "更新到最新公共库",
+          "date": "2023-08-12T03:16:44Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Revit2dev-ZBIM/commit/595a87097ad91e0936db297ea8badf510a6cd943"
+        }
+      ]
+    },
+    {
+      "id": 665973360,
+      "name": "sky-take-out",
+      "fullName": "01Petard/sky-take-out",
+      "description": "一个单体类外卖后台管理平台服务端项目，此仓库仅包含后台服务端，其余文件见README",
+      "url": "https://github.com/01Petard/sky-take-out",
+      "homepage": null,
+      "createdAt": "2023-07-13T12:17:09Z",
+      "pushedAt": "2023-12-24T08:12:34Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "cdd0543ba10ee0b072699a3faf05cddb16f76ef8",
+          "message": "Create README.md",
+          "date": "2023-12-24T08:12:34Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/sky-take-out/commit/cdd0543ba10ee0b072699a3faf05cddb16f76ef8"
+        },
+        {
+          "sha": "a50da9951c4d19009690bb37061c4295537814a4",
+          "message": "维护：\n1、修改后端端口号为8008；\n2、修改为Linux中redis的ip地址；\n3、nginx修改为监听8008端口。",
+          "date": "2023-12-19T04:54:59Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/sky-take-out/commit/a50da9951c4d19009690bb37061c4295537814a4"
+        },
+        {
+          "sha": "1d1ee979a9a83b8760d5afd4afd3912c9cc6363c",
+          "message": "维护：\n1、将项目迁移到了新的电脑上，并部署成功。\n修改：\n1、新增了prod的环境配置文件，因为考虑到生产环境会用mysql5.7，因此配置是按mysql5，7来的；\n2、为管理端的“停售起售菜品”中的方法参数Long id添加了@RequestParam(value = \"id\")注解",
+          "date": "2023-12-13T10:26:18Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/sky-take-out/commit/1d1ee979a9a83b8760d5afd4afd3912c9cc6363c"
+        }
+      ]
+    },
+    {
+      "id": 684132583,
+      "name": "hmdp",
+      "fullName": "01Petard/hmdp",
+      "description": "黑马点评（Redis学习）",
+      "url": "https://github.com/01Petard/hmdp",
+      "homepage": null,
+      "createdAt": "2023-08-28T14:20:16Z",
+      "pushedAt": "2023-12-13T11:16:27Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "fd79450343677afac600911855231dbe3f1d0c15",
+          "message": "维护：\n1、将项目迁移到了新的电脑上，并部署成功。\n修改：\n1、修改了yml配置文件，将数据库的连接改为Mysql5.7；\n2、将redis client对象改为采用虚拟机中的redis。",
+          "date": "2023-12-13T11:15:59Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/hmdp/commit/fd79450343677afac600911855231dbe3f1d0c15"
+        },
+        {
+          "sha": "ee645587cb8ef34c7287a0d753e98ecde769e025",
+          "message": "完成以下功能：\n1、添加备注。",
+          "date": "2023-09-07T07:49:25Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/hmdp/commit/ee645587cb8ef34c7287a0d753e98ecde769e025"
+        },
+        {
+          "sha": "8d46f68e3719da58d4f969e873c60b7c105a4295",
+          "message": "完成以下功能：\n1、UV统计；\n2、添加了部分备注。\n\n单机Redis实战到此结束，之后继续学习分布式Redis。",
+          "date": "2023-09-07T03:53:50Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/hmdp/commit/8d46f68e3719da58d4f969e873c60b7c105a4295"
+        }
+      ]
+    },
+    {
+      "id": 725421267,
+      "name": "smart_classroom",
+      "fullName": "01Petard/smart_classroom",
+      "description": "课堂专注度及考试作弊系统、课堂动态点名。情绪识别、表情识别、姿态识别和人脸识别结合",
+      "url": "https://github.com/01Petard/smart_classroom",
+      "homepage": null,
+      "createdAt": "2023-11-30T05:21:01Z",
+      "pushedAt": "2023-09-14T08:58:49Z",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "f05e6f5a3e7daea6e4273e1a2ccd33632d8e045f",
+          "message": "Update README.md",
+          "date": "2023-09-14T08:58:49Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom/commit/f05e6f5a3e7daea6e4273e1a2ccd33632d8e045f"
+        },
+        {
+          "sha": "96ec70825847c536cb6daafbbff2f12a956ae007",
+          "message": "Update README.md",
+          "date": "2022-10-25T06:34:11Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom/commit/96ec70825847c536cb6daafbbff2f12a956ae007"
+        },
+        {
+          "sha": "f61191fb0d72b522bde7604badefe8d4e48fdf35",
+          "message": "Update README.md",
+          "date": "2021-10-22T13:58:30Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom/commit/f61191fb0d72b522bde7604badefe8d4e48fdf35"
+        }
+      ]
+    },
+    {
+      "id": 725421416,
+      "name": "smart_classroom_python_demo",
+      "fullName": "01Petard/smart_classroom_python_demo",
+      "description": "群体课堂专注度分析、考试作弊系统、动态点名功能的Qt Demo，使用多人姿态估计、情绪识别、人脸识别、静默活体检测等技术",
+      "url": "https://github.com/01Petard/smart_classroom_python_demo",
+      "homepage": null,
+      "createdAt": "2023-11-30T05:21:33Z",
+      "pushedAt": "2022-03-17T09:41:16Z",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "1e86baf932cdedc7f4b4ba3e43c72870436d7f78",
+          "message": "Merge pull request #18 from xiangwentao666/patch-1\n\nNEUBD-20195533 对Readme.md中与配置环境相关的内容进行了完善和补充，请检查哈哈哈哈！",
+          "date": "2022-03-17T09:41:16Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom_python_demo/commit/1e86baf932cdedc7f4b4ba3e43c72870436d7f78"
+        },
+        {
+          "sha": "3856e77e67919dce48182f649a0c915a9877fa28",
+          "message": "Update README.md",
+          "date": "2022-03-17T07:25:27Z",
+          "author": "xiangwentao666",
+          "url": "https://github.com/01Petard/smart_classroom_python_demo/commit/3856e77e67919dce48182f649a0c915a9877fa28"
+        },
+        {
+          "sha": "6b274521aa65901ad4d040663e631818a2e97c09",
+          "message": "Update README.md",
+          "date": "2022-03-17T07:24:54Z",
+          "author": "xiangwentao666",
+          "url": "https://github.com/01Petard/smart_classroom_python_demo/commit/6b274521aa65901ad4d040663e631818a2e97c09"
+        }
+      ]
+    },
+    {
+      "id": 725421563,
+      "name": "smart_classroom_Java",
+      "fullName": "01Petard/smart_classroom_Java",
+      "description": "智慧教室项目的Java版本，尝试将多人姿态估计、情绪识别、人脸识别、静默活体检测等技术在java上实现。",
+      "url": "https://github.com/01Petard/smart_classroom_Java",
+      "homepage": null,
+      "createdAt": "2023-11-30T05:22:07Z",
+      "pushedAt": "2021-11-22T13:06:25Z",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "d04a79d943b219305809021ed36e9697704a51d7",
+          "message": "improve model inference process, twice faster",
+          "date": "2021-11-22T13:06:16Z",
+          "author": "papergame",
+          "url": "https://github.com/01Petard/smart_classroom_Java/commit/d04a79d943b219305809021ed36e9697704a51d7"
+        },
+        {
+          "sha": "8c3cb144ce3bdf5f82a1362723d906c66f6d565a",
+          "message": "删除.idea文件",
+          "date": "2021-11-05T17:34:26Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom_Java/commit/8c3cb144ce3bdf5f82a1362723d906c66f6d565a"
+        },
+        {
+          "sha": "60eaf444e2f47625a0693ea4c274141ce7f17841",
+          "message": "优化单人姿态估计推理、opencv版的ImageFactory、测试单元",
+          "date": "2021-11-05T17:29:30Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom_Java/commit/60eaf444e2f47625a0693ea4c274141ce7f17841"
+        }
+      ]
+    },
+    {
+      "id": 725421785,
+      "name": "smart_classroom_system",
+      "fullName": "01Petard/smart_classroom_system",
+      "description": "智慧教室监考系统，作弊检测和考生点名功能（智慧教室的最后一个项目，尝试使用c++部署算法，使用TensorRT进行加速）",
+      "url": "https://github.com/01Petard/smart_classroom_system",
+      "homepage": null,
+      "createdAt": "2023-11-30T05:22:57Z",
+      "pushedAt": "2022-06-08T18:13:45Z",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "fd58909825c4fc3d2a5ecf576b508e781b9e6fc4",
+          "message": "添加仓库链接",
+          "date": "2022-06-08T18:13:41Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom_system/commit/fd58909825c4fc3d2a5ecf576b508e781b9e6fc4"
+        },
+        {
+          "sha": "1bb670ec042265c8640d2a92420190215f9ab04e",
+          "message": "Update README.md",
+          "date": "2022-06-08T17:59:18Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom_system/commit/1bb670ec042265c8640d2a92420190215f9ab04e"
+        },
+        {
+          "sha": "3186b4049037fa5b002e6575d7ca8c7da86bb359",
+          "message": "Update README.md",
+          "date": "2022-06-08T17:51:55Z",
+          "author": "hongyaohongyao",
+          "url": "https://github.com/01Petard/smart_classroom_system/commit/3186b4049037fa5b002e6575d7ca8c7da86bb359"
+        }
+      ]
+    },
+    {
+      "id": 732724679,
+      "name": "workspace_top-leadnews",
+      "fullName": "01Petard/workspace_top-leadnews",
+      "description": "一个仿头条类app的微服务项目，包含前端nginx服务器、后端工程两部分",
+      "url": "https://github.com/01Petard/workspace_top-leadnews",
+      "homepage": null,
+      "createdAt": "2023-12-17T16:22:29Z",
+      "pushedAt": "2025-03-25T07:02:37Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "e3dfb3dab98d5278284592e0c9a31bf0b80623ee",
+          "message": "Create README.md",
+          "date": "2025-03-25T07:02:37Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/workspace_top-leadnews/commit/e3dfb3dab98d5278284592e0c9a31bf0b80623ee"
+        },
+        {
+          "sha": "3c755dd1d10522fbae6295afab769f5d8f00181b",
+          "message": "Delete ~allenexplorer~.ala\n\n删了一个没用的文件",
+          "date": "2024-04-09T13:00:33Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/workspace_top-leadnews/commit/3c755dd1d10522fbae6295afab769f5d8f00181b"
+        },
+        {
+          "sha": "762f754d61a6dbd61afae73b64abf27c243edc61",
+          "message": "2024.03.08：进行实战一admin-web之前的准备。",
+          "date": "2024-03-08T07:58:39Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/workspace_top-leadnews/commit/762f754d61a6dbd61afae73b64abf27c243edc61"
+        }
+      ]
+    },
+    {
+      "id": 735248223,
+      "name": "sky-take-out_supple",
+      "fullName": "01Petard/sky-take-out_supple",
+      "description": "对外卖项目的文件补充，包含微信小程序、nginx后台管理界面和Mysql数据库文件",
+      "url": "https://github.com/01Petard/sky-take-out_supple",
+      "homepage": null,
+      "createdAt": "2023-12-24T07:56:52Z",
+      "pushedAt": "2026-09-04T00:59:54Z",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "61ba3e9da8d9cd2e824b49f7a29f2fee8afd91b3",
+          "message": "init",
+          "date": "2026-09-04T00:59:45Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/sky-take-out_supple/commit/61ba3e9da8d9cd2e824b49f7a29f2fee8afd91b3"
+        },
+        {
+          "sha": "bfca4b9b73608911ab1da2a3f8ff410b77ffd9dc",
+          "message": "添加gitignore文件",
+          "date": "2026-09-04T00:59:45Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/sky-take-out_supple/commit/bfca4b9b73608911ab1da2a3f8ff410b77ffd9dc"
+        },
+        {
+          "sha": "f810f68135be82218d6903dff19f3617580f2d20",
+          "message": "对sky-take-out项目的补充",
+          "date": "2026-09-04T00:59:45Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/sky-take-out_supple/commit/f810f68135be82218d6903dff19f3617580f2d20"
+        }
+      ]
+    },
+    {
+      "id": 812658797,
+      "name": "HzxSpringBoot",
+      "fullName": "01Petard/HzxSpringBoot",
+      "description": "本人在学习SpringBoot中有感而发，自己手写的一点感悟",
+      "url": "https://github.com/01Petard/HzxSpringBoot",
+      "homepage": null,
+      "createdAt": "2024-06-09T14:18:59Z",
+      "pushedAt": "2024-10-01T12:53:28Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "d486f3fce5e55316738c116d8c9aee36f13eb214",
+          "message": "备份 2024-10-01 03\n1、提交过滤器。",
+          "date": "2024-10-01T12:50:15Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/HzxSpringBoot/commit/d486f3fce5e55316738c116d8c9aee36f13eb214"
+        },
+        {
+          "sha": "75e3bfb8de12e96749483d24932c805498830aab",
+          "message": "备份 2024-10-01 02\n1、将防重复提交拦截器注册到WebMVC中。",
+          "date": "2024-10-01T09:02:06Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/HzxSpringBoot/commit/75e3bfb8de12e96749483d24932c805498830aab"
+        },
+        {
+          "sha": "84edfa3af18b4735d3bd8cde296675f0141184a5",
+          "message": "备份 2024-10-01\n1、添加防重复提交的注解和拦截器；\n2、用Order注解实现过滤器和拦截器的执行顺序；\n3、修复了一些问题；\n4、添加了mysql的建表文件。",
+          "date": "2024-10-01T08:43:35Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/HzxSpringBoot/commit/84edfa3af18b4735d3bd8cde296675f0141184a5"
+        }
+      ]
+    },
+    {
+      "id": 848197771,
+      "name": "mbdb",
+      "fullName": "01Petard/mbdb",
+      "description": "Database",
+      "url": "https://github.com/01Petard/mbdb",
+      "homepage": null,
+      "createdAt": "2024-08-27T10:13:28Z",
+      "pushedAt": "2022-10-04T06:00:50Z",
+      "language": null,
+      "fork": true,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "89fa7969025ff48e458ac4d0aee8b4ff5131d7b4",
+          "message": "Merge remote-tracking branch 'origin/master'",
+          "date": "2022-10-04T06:00:49Z",
+          "author": "mabo_9704",
+          "url": "https://github.com/01Petard/mbdb/commit/89fa7969025ff48e458ac4d0aee8b4ff5131d7b4"
+        },
+        {
+          "sha": "44a7fc7f0b11878fb7bc84fd49eb7c6ffe9c19f0",
+          "message": "创建sql解析，执行增删改插sql",
+          "date": "2022-10-04T06:00:40Z",
+          "author": "mabo_9704",
+          "url": "https://github.com/01Petard/mbdb/commit/44a7fc7f0b11878fb7bc84fd49eb7c6ffe9c19f0"
+        },
+        {
+          "sha": "749e09e152bf20a3be060da9dbe676fab25bbc38",
+          "message": "Update README.md",
+          "date": "2022-10-03T07:54:19Z",
+          "author": "mabo",
+          "url": "https://github.com/01Petard/mbdb/commit/749e09e152bf20a3be060da9dbe676fab25bbc38"
+        }
+      ]
+    },
+    {
+      "id": 861286085,
+      "name": "MYDB-HzxDB",
+      "fullName": "01Petard/MYDB-HzxDB",
+      "description": "一个简单的数据库实现，修改了部分源码，添加了Show、Drop关键字以及部分优化",
+      "url": "https://github.com/01Petard/MYDB-HzxDB",
+      "homepage": null,
+      "createdAt": "2024-09-22T13:55:14Z",
+      "pushedAt": "2024-09-22T14:10:56Z",
+      "language": "Java",
+      "fork": true,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "945ff13dc0e767c988610de2030b6d86d024f79b",
+          "message": "Merge branch 'HzxDB'",
+          "date": "2024-09-17T00:22:32Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/MYDB-HzxDB/commit/945ff13dc0e767c988610de2030b6d86d024f79b"
+        },
+        {
+          "sha": "b6bd9118d51f616bc5de08ab516090b01aac93cb",
+          "message": "doc: 新增说明使用文档",
+          "date": "2024-09-17T00:21:00Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/MYDB-HzxDB/commit/b6bd9118d51f616bc5de08ab516090b01aac93cb"
+        },
+        {
+          "sha": "ed81f0922e41a4768366e7fe9195c2e66c65f36b",
+          "message": "doc: 新增说明使用文档",
+          "date": "2024-09-17T00:19:12Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/MYDB-HzxDB/commit/ed81f0922e41a4768366e7fe9195c2e66c65f36b"
+        }
+      ]
+    },
+    {
+      "id": 861294783,
+      "name": "dynamic-thread-pool",
+      "fullName": "01Petard/dynamic-thread-pool",
+      "description": "动态线程池，通过Redis实现消息的订阅发布、配置更改，可以无缝融入现有项目。通过JMX检测系统运行状况，实现线程池配置的动态缩扩",
+      "url": "https://github.com/01Petard/dynamic-thread-pool",
+      "homepage": null,
+      "createdAt": "2024-09-22T14:19:16Z",
+      "pushedAt": "2024-09-22T14:33:40Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "0bfc6dd5dbc6ada1033e7987cac03fd5e3fddb07",
+          "message": "Delete .idea directory",
+          "date": "2024-09-22T14:33:39Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/dynamic-thread-pool/commit/0bfc6dd5dbc6ada1033e7987cac03fd5e3fddb07"
+        },
+        {
+          "sha": "99041d56302f6c79a2c369508cf115faa111a0b6",
+          "message": "fix: test",
+          "date": "2024-09-22T14:32:06Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/dynamic-thread-pool/commit/99041d56302f6c79a2c369508cf115faa111a0b6"
+        },
+        {
+          "sha": "6655184bbcdf8236efa3e26b1132f98b2d708a48",
+          "message": "feature: 添加开源文件",
+          "date": "2024-09-22T14:26:25Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/dynamic-thread-pool/commit/6655184bbcdf8236efa3e26b1132f98b2d708a48"
+        }
+      ]
+    },
+    {
+      "id": 868053037,
+      "name": "LeetCode",
+      "fullName": "01Petard/LeetCode",
+      "description": "急急急，我是Java算法大王！（一拳被大佬打死前的幻想......）",
+      "url": "https://github.com/01Petard/LeetCode",
+      "homepage": null,
+      "createdAt": "2024-10-05T10:59:21Z",
+      "pushedAt": "2025-03-13T05:21:25Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "3e537c2be22a48806b9bc4f2595adb0e7d098bc4",
+          "message": "补充README",
+          "date": "2025-03-13T05:21:19Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/LeetCode/commit/3e537c2be22a48806b9bc4f2595adb0e7d098bc4"
+        },
+        {
+          "sha": "559aff606fe0879cce076a760eb0471c08847cb3",
+          "message": "修改一些文件",
+          "date": "2025-03-13T05:11:02Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/LeetCode/commit/559aff606fe0879cce076a760eb0471c08847cb3"
+        },
+        {
+          "sha": "69613d185da23f72d1f39e2f6f7060931eb9e79c",
+          "message": "feat: 新增一些面试题",
+          "date": "2024-11-21T11:37:20Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/LeetCode/commit/69613d185da23f72d1f39e2f6f7060931eb9e79c"
+        }
+      ]
+    },
+    {
+      "id": 876631541,
+      "name": "demo_easysession",
+      "fullName": "01Petard/demo_easysession",
+      "description": "手写个token练着玩，顺便学习了一下 curl 命令的使用",
+      "url": "https://github.com/01Petard/demo_easysession",
+      "homepage": null,
+      "createdAt": "2024-10-22T09:50:25Z",
+      "pushedAt": "2024-10-26T08:31:16Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "25b0f3fff261c6c879d10aef2938041a2ea14fbe",
+          "message": "update",
+          "date": "2024-10-26T08:30:53Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/demo_easysession/commit/25b0f3fff261c6c879d10aef2938041a2ea14fbe"
+        },
+        {
+          "sha": "e47b2edc55d3d7b63b4f0f129a586b3c88609117",
+          "message": "README.md",
+          "date": "2024-10-22T09:54:27Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/demo_easysession/commit/e47b2edc55d3d7b63b4f0f129a586b3c88609117"
+        },
+        {
+          "sha": "883330d8b7b3796159a21eeb44e244a1ec7becc6",
+          "message": "init",
+          "date": "2024-10-22T09:49:13Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/demo_easysession/commit/883330d8b7b3796159a21eeb44e244a1ec7becc6"
+        }
+      ]
+    },
+    {
+      "id": 878835116,
+      "name": "demo_mq",
+      "fullName": "01Petard/demo_mq",
+      "description": "rabbitMQ学习代码",
+      "url": "https://github.com/01Petard/demo_mq",
+      "homepage": null,
+      "createdAt": "2024-10-26T08:32:50Z",
+      "pushedAt": "2024-11-03T09:51:30Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "9bd041351d465593003e3881a0c4fd0d80fddbea",
+          "message": "README.md",
+          "date": "2024-10-26T08:36:50Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/demo_mq/commit/9bd041351d465593003e3881a0c4fd0d80fddbea"
+        },
+        {
+          "sha": "c4664f98d18403bc3f48746e64da4d7a5e23041f",
+          "message": "README.md",
+          "date": "2024-10-26T08:35:31Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/demo_mq/commit/c4664f98d18403bc3f48746e64da4d7a5e23041f"
+        },
+        {
+          "sha": "2ffd53a951042d8b63aa4fde5814fd5c0941bf79",
+          "message": "init",
+          "date": "2024-10-26T08:30:00Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/demo_mq/commit/2ffd53a951042d8b63aa4fde5814fd5c0941bf79"
+        }
+      ]
+    },
+    {
+      "id": 883135121,
+      "name": "blog-vue-vitepress",
+      "fullName": "01Petard/blog-vue-vitepress",
+      "description": "基于 Vue3 并以 Vite 驱动的 VitePress 文档模版框架，以此作为一个全新的个人知识库",
+      "url": "https://github.com/01Petard/blog-vue-vitepress",
+      "homepage": "https://doc.bugstack.top",
+      "createdAt": "2024-11-04T12:45:22Z",
+      "pushedAt": "2026-10-03T01:30:07Z",
+      "language": "Shell",
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "7983a0b86466c65560710b9ca8ba1d6a8c9fe206",
+          "message": "fix: 修改首页slogan",
+          "date": "2026-09-20T01:18:58Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/blog-vue-vitepress/commit/7983a0b86466c65560710b9ca8ba1d6a8c9fe206"
+        },
+        {
+          "sha": "d42eade59cc099ffcf8a5c5961f904c642b0f561",
+          "message": "doc: 备份文章",
+          "date": "2026-09-20T01:07:47Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/blog-vue-vitepress/commit/d42eade59cc099ffcf8a5c5961f904c642b0f561"
+        },
+        {
+          "sha": "2a3d9b65727da3b97f008aec21ba7eba4991e254",
+          "message": "doc: 备份文章",
+          "date": "2026-09-18T06:56:36Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/blog-vue-vitepress/commit/2a3d9b65727da3b97f008aec21ba7eba4991e254"
+        }
+      ]
+    },
+    {
+      "id": 885787712,
+      "name": "flaskProject",
+      "fullName": "01Petard/flaskProject",
+      "description": "写一个基于Flask框架，可以与数据库交互的小程序",
+      "url": "https://github.com/01Petard/flaskProject",
+      "homepage": null,
+      "createdAt": "2024-11-09T11:57:02Z",
+      "pushedAt": "2025-01-20T10:54:18Z",
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "5487e61f75923bca1313e30fb61741c1fbb1bdac",
+          "message": "relink",
+          "date": "2025-01-20T10:54:12Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/flaskProject/commit/5487e61f75923bca1313e30fb61741c1fbb1bdac"
+        },
+        {
+          "sha": "c79ad5053b9d6db708c042afe517f65bddd2530a",
+          "message": "modify",
+          "date": "2024-11-17T22:04:40Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/flaskProject/commit/c79ad5053b9d6db708c042afe517f65bddd2530a"
+        },
+        {
+          "sha": "6d6ba25f5fc09d2d7e5d922bcf82c289ec492ff2",
+          "message": "sql文件",
+          "date": "2024-11-09T13:59:38Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/flaskProject/commit/6d6ba25f5fc09d2d7e5d922bcf82c289ec492ff2"
+        }
+      ]
+    },
+    {
+      "id": 887150449,
+      "name": "vue3-electron-rabbit",
+      "fullName": "01Petard/vue3-electron-rabbit",
+      "description": "electron版的“小兔鲜”项目",
+      "url": "https://github.com/01Petard/vue3-electron-rabbit",
+      "homepage": "https://www.bilibili.com/video/BV1Ac411K7EQ/",
+      "createdAt": "2024-11-12T08:56:29Z",
+      "pushedAt": "2024-11-18T19:43:15Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "61611c2b30cf4770c35177edf6fd5390b2e2bd71",
+          "message": "script:\n1、新增 electron:preview脚本，用于预览 Electron应用；\n2、更新 electron:build 脚本，在打包配置中添加 electron 目录，确保 Electron 相关文件被正确打包",
+          "date": "2024-11-18T19:43:10Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/vue3-electron-rabbit/commit/61611c2b30cf4770c35177edf6fd5390b2e2bd71"
+        },
+        {
+          "sha": "3f5e23c372419ca85948862552f6d7b92d02182e",
+          "message": "使用pnpm安装依赖",
+          "date": "2024-11-16T14:04:03Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/vue3-electron-rabbit/commit/3f5e23c372419ca85948862552f6d7b92d02182e"
+        },
+        {
+          "sha": "ab10c11e83d6d23b2c519324b8d79862a95076f6",
+          "message": "feat: 1、做了一些electron打包方面的努力",
+          "date": "2024-11-13T06:40:52Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/vue3-electron-rabbit/commit/ab10c11e83d6d23b2c519324b8d79862a95076f6"
+        }
+      ]
+    },
+    {
+      "id": 891934313,
+      "name": "MyProject",
+      "fullName": "01Petard/MyProject",
+      "description": "所有Java小项目的集合",
+      "url": "https://github.com/01Petard/MyProject",
+      "homepage": null,
+      "createdAt": "2024-11-21T08:12:17Z",
+      "pushedAt": "2024-11-21T10:59:43Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "bb60ea64af358735b0dd66c0523e6aa617a5b253",
+          "message": ".gitignore",
+          "date": "2024-11-21T09:01:12Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/MyProject/commit/bb60ea64af358735b0dd66c0523e6aa617a5b253"
+        },
+        {
+          "sha": "4713a434cd8762b3d77f0d0be312f99407fb020e",
+          "message": ".gitignore",
+          "date": "2024-11-21T08:58:19Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/MyProject/commit/4713a434cd8762b3d77f0d0be312f99407fb020e"
+        },
+        {
+          "sha": "8be1ece134a9030b44a86907036d90afbad13db0",
+          "message": "集成",
+          "date": "2024-11-21T08:58:05Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/MyProject/commit/8be1ece134a9030b44a86907036d90afbad13db0"
+        }
+      ]
+    },
+    {
+      "id": 892084114,
+      "name": "BookSystem",
+      "fullName": "01Petard/BookSystem",
+      "description": "一个图书管理后台系统，使用shiro进行权限管理，使用thymeleaf作为前端模版引擎",
+      "url": "https://github.com/01Petard/BookSystem",
+      "homepage": null,
+      "createdAt": "2024-11-21T13:35:37Z",
+      "pushedAt": "2024-11-21T13:36:10Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "005a4e8422efd5baa067c9b1e1741db8eabecf5b",
+          "message": "init",
+          "date": "2024-11-21T13:34:16Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/BookSystem/commit/005a4e8422efd5baa067c9b1e1741db8eabecf5b"
+        }
+      ]
+    },
+    {
+      "id": 937065725,
+      "name": "conc-server",
+      "fullName": "01Petard/conc-server",
+      "description": "专注度系统Java服务端",
+      "url": "https://github.com/01Petard/conc-server",
+      "homepage": null,
+      "createdAt": "2025-02-22T08:48:34Z",
+      "pushedAt": "2025-05-04T10:36:06Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "16e195ccaa964bfe0e00f15b294ccd5d64b32997",
+          "message": "fix: 修改资源图片",
+          "date": "2025-05-04T10:36:31Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-server/commit/16e195ccaa964bfe0e00f15b294ccd5d64b32997"
+        },
+        {
+          "sha": "596bd2964289e1b2b237c653559edbc8374efac2",
+          "message": "fix: 新增学院",
+          "date": "2025-04-24T10:32:29Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-server/commit/596bd2964289e1b2b237c653559edbc8374efac2"
+        },
+        {
+          "sha": "ee00dbdba1ea62f36298ee8726cadb4beaf1d029",
+          "message": "feat: 备份最新数据库",
+          "date": "2025-04-21T12:37:42Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-server/commit/ee00dbdba1ea62f36298ee8726cadb4beaf1d029"
+        }
+      ]
+    },
+    {
+      "id": 939875162,
+      "name": "conc-admin",
+      "fullName": "01Petard/conc-admin",
+      "description": "专注度系统Vue前端",
+      "url": "https://github.com/01Petard/conc-admin",
+      "homepage": null,
+      "createdAt": "2025-02-27T08:52:57Z",
+      "pushedAt": "2025-04-27T02:35:29Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "8b9aa24e03381ed732b628f3a6c9246c6ccaa7b0",
+          "message": "修改查询学院的条件",
+          "date": "2025-04-27T02:35:40Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-admin/commit/8b9aa24e03381ed732b628f3a6c9246c6ccaa7b0"
+        },
+        {
+          "sha": "5f3c34de3480ac5eb0248274635c19f817f2a27c",
+          "message": "新增学院",
+          "date": "2025-04-24T10:32:47Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-admin/commit/5f3c34de3480ac5eb0248274635c19f817f2a27c"
+        },
+        {
+          "sha": "e628d9327fff7adb446ec0fa13e96ece942fd749",
+          "message": "完善登录页面、视频编辑的功能",
+          "date": "2025-04-21T12:34:46Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-admin/commit/e628d9327fff7adb446ec0fa13e96ece942fd749"
+        }
+      ]
+    },
+    {
+      "id": 939876689,
+      "name": "conc-python-api",
+      "fullName": "01Petard/conc-python-api",
+      "description": "专注度系统Python部分功能",
+      "url": "https://github.com/01Petard/conc-python-api",
+      "homepage": null,
+      "createdAt": "2025-02-27T08:56:03Z",
+      "pushedAt": "2025-04-02T08:37:43Z",
+      "language": "Python",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "52211786e9fea4d84d7b325375fd3b380f8e2801",
+          "message": "Update README.md",
+          "date": "2025-04-02T08:37:43Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-python-api/commit/52211786e9fea4d84d7b325375fd3b380f8e2801"
+        },
+        {
+          "sha": "dda089940a4409cd4d52a35b05a91b98902d456b",
+          "message": "init",
+          "date": "2025-03-13T06:01:08Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-python-api/commit/dda089940a4409cd4d52a35b05a91b98902d456b"
+        },
+        {
+          "sha": "a7831fa405224253328e1838617acb41ca4cb57f",
+          "message": "init",
+          "date": "2025-03-13T05:59:30Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/conc-python-api/commit/a7831fa405224253328e1838617acb41ca4cb57f"
+        }
+      ]
+    },
+    {
+      "id": 948924484,
+      "name": "gin_demo",
+      "fullName": "01Petard/gin_demo",
+      "description": "使用Go + Gin实现了用户身份认证",
+      "url": "https://github.com/01Petard/gin_demo",
+      "homepage": null,
+      "createdAt": "2025-03-15T09:16:37Z",
+      "pushedAt": "2026-05-13T05:26:29Z",
+      "language": "Go",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "4152105fc5dac17a4ef3db0542b16df8aa225cb9",
+          "message": "update",
+          "date": "2026-05-13T05:26:19Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/gin_demo/commit/4152105fc5dac17a4ef3db0542b16df8aa225cb9"
+        },
+        {
+          "sha": "2a89d2dbf41122f8d1f97ff3b046e5f5bab794f7",
+          "message": "feat: 从文件中读取配置",
+          "date": "2025-03-15T12:06:42Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/gin_demo/commit/2a89d2dbf41122f8d1f97ff3b046e5f5bab794f7"
+        },
+        {
+          "sha": "f6f8843d066cef4656a884d1ecf972d142b5cc79",
+          "message": "feat: 封装统一的请求和返回格式",
+          "date": "2025-03-15T11:52:26Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/gin_demo/commit/f6f8843d066cef4656a884d1ecf972d142b5cc79"
+        }
+      ]
+    },
+    {
+      "id": 950001316,
+      "name": "vue3-project-demo",
+      "fullName": "01Petard/vue3-project-demo",
+      "description": "一个完整的Vue3学习教程类项目，共勉！",
+      "url": "https://github.com/01Petard/vue3-project-demo",
+      "homepage": "https://vue.bugstack.top",
+      "createdAt": "2025-03-17T13:28:58Z",
+      "pushedAt": "2026-08-12T14:15:13Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "580b8fc3e6db900a5b8095747f3f0c9e64a204d5",
+          "message": "refactor: 重构项目",
+          "date": "2026-08-12T14:14:56Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/vue3-project-demo/commit/580b8fc3e6db900a5b8095747f3f0c9e64a204d5"
+        },
+        {
+          "sha": "ae5f5595a92836235b8e5713fea63aa95f88e70f",
+          "message": "加入了常见组件",
+          "date": "2025-06-02T16:02:37Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/vue3-project-demo/commit/ae5f5595a92836235b8e5713fea63aa95f88e70f"
+        },
+        {
+          "sha": "c3259e9252db3f50a3702101debd7e54b3a5236e",
+          "message": "打包",
+          "date": "2025-03-19T13:23:43Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/vue3-project-demo/commit/c3259e9252db3f50a3702101debd7e54b3a5236e"
+        }
+      ]
+    },
+    {
+      "id": 951786393,
+      "name": "01Petard",
+      "fullName": "01Petard/01Petard",
+      "description": "Github个人主页描述文件",
+      "url": "https://github.com/01Petard/01Petard",
+      "homepage": "https://github.com/01Petard",
+      "createdAt": "2025-03-20T08:40:52Z",
+      "pushedAt": "2026-10-08T05:43:54Z",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "314876f53a1d6db1885f5d0aa85b19ca6ea31158",
+          "message": "chore: update activity graph [skip ci]",
+          "date": "2026-10-08T05:43:53Z",
+          "author": "github-actions[bot]",
+          "url": "https://github.com/01Petard/01Petard/commit/314876f53a1d6db1885f5d0aa85b19ca6ea31158"
+        },
+        {
+          "sha": "581435dbcbf2bf6d6ca570891584e0e3555d1183",
+          "message": "chore: update GitHub metrics [skip ci]",
+          "date": "2026-10-08T05:43:07Z",
+          "author": "github-actions[bot]",
+          "url": "https://github.com/01Petard/01Petard/commit/581435dbcbf2bf6d6ca570891584e0e3555d1183"
+        },
+        {
+          "sha": "cc02763469a5d694665f92abbe2b7b89501f60b3",
+          "message": "chore: update GitHub metrics [skip ci]",
+          "date": "2026-10-08T05:42:41Z",
+          "author": "github-actions[bot]",
+          "url": "https://github.com/01Petard/01Petard/commit/cc02763469a5d694665f92abbe2b7b89501f60b3"
+        }
+      ]
+    },
+    {
+      "id": 952985546,
+      "name": "lesson",
+      "fullName": "01Petard/lesson",
+      "description": "",
+      "url": "https://github.com/01Petard/lesson",
+      "homepage": null,
+      "createdAt": "2025-03-22T09:57:21Z",
+      "pushedAt": "2025-05-04T07:54:11Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "c8d6ddc6a1bd6b75a14d082397de381679ec20d0",
+          "message": "fix: 更改目录",
+          "date": "2025-05-04T07:54:03Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/lesson/commit/c8d6ddc6a1bd6b75a14d082397de381679ec20d0"
+        },
+        {
+          "sha": "d362e607088222be9ce608925edd9ffcd61c1263",
+          "message": "fix: 解决跨域",
+          "date": "2025-05-04T05:41:31Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/lesson/commit/d362e607088222be9ce608925edd9ffcd61c1263"
+        },
+        {
+          "sha": "a891b955f0f407b009b342e35fdf4b0ae41a7334",
+          "message": "Merge remote-tracking branch 'origin/main'",
+          "date": "2025-04-09T15:27:35Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/lesson/commit/a891b955f0f407b009b342e35fdf4b0ae41a7334"
+        }
+      ]
+    },
+    {
+      "id": 954458425,
+      "name": "blog-star-trail",
+      "fullName": "01Petard/blog-star-trail",
+      "description": "基于Vue3的 \"你的名字\" 主题博客引导页",
+      "url": "https://github.com/01Petard/blog-star-trail",
+      "homepage": "https://www.bugstack.top",
+      "createdAt": "2025-03-25T05:43:21Z",
+      "pushedAt": "2026-09-29T01:19:38Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {
+        "Vue": 41283,
+        "JavaScript": 2821,
+        "HTML": 604,
+        "CSS": 499
+      },
+      "releases": [],
+      "commits": [
+        {
+          "sha": "ebdfdd27b0fe2faf131d0d157cf3b30c8e9d5fdc",
+          "message": "feat: 新增项目",
+          "date": "2026-09-29T01:18:16Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/blog-star-trail/commit/ebdfdd27b0fe2faf131d0d157cf3b30c8e9d5fdc"
+        },
+        {
+          "sha": "178fe03c22eecc2e2c7714dda3328ac4e773f7f9",
+          "message": "feat: 新增项目",
+          "date": "2026-09-29T01:17:45Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/blog-star-trail/commit/178fe03c22eecc2e2c7714dda3328ac4e773f7f9"
+        },
+        {
+          "sha": "f0a840e83295bee0c9565c95b1130cc63cd4d11d",
+          "message": "feat: 新增项目",
+          "date": "2026-09-28T02:41:01Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/blog-star-trail/commit/f0a840e83295bee0c9565c95b1130cc63cd4d11d"
+        }
+      ]
+    },
+    {
+      "id": 959599470,
+      "name": "Revert-My-Code",
+      "fullName": "01Petard/Revert-My-Code",
+      "description": "没写完的代码提交了，如何用git撤回已push的代码？通过这个项目学习一下",
+      "url": "https://github.com/01Petard/Revert-My-Code",
+      "homepage": null,
+      "createdAt": "2025-04-03T03:41:46Z",
+      "pushedAt": "2025-04-09T10:23:32Z",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "60c14dfc7a1806ff31f95d6a15e7f7687b1c66b4",
+          "message": "工作做完了2222",
+          "date": "2025-04-09T10:23:15Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Revert-My-Code/commit/60c14dfc7a1806ff31f95d6a15e7f7687b1c66b4"
+        },
+        {
+          "sha": "178586d33d637746cd5db7ae979273bb19cacf5b",
+          "message": "Revert \"工作做完了\"\n\nThis reverts commit e1072969f7bcb6e48c57c5f90b5a1adcb1a79b1f.",
+          "date": "2025-04-09T10:22:48Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Revert-My-Code/commit/178586d33d637746cd5db7ae979273bb19cacf5b"
+        },
+        {
+          "sha": "e1072969f7bcb6e48c57c5f90b5a1adcb1a79b1f",
+          "message": "工作做完了",
+          "date": "2025-04-09T10:22:43Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Revert-My-Code/commit/e1072969f7bcb6e48c57c5f90b5a1adcb1a79b1f"
+        }
+      ]
+    },
+    {
+      "id": 977472653,
+      "name": "app-docker-compose",
+      "fullName": "01Petard/app-docker-compose",
+      "description": "采用docker-compose来管理项目的部署",
+      "url": "https://github.com/01Petard/app-docker-compose",
+      "homepage": null,
+      "createdAt": "2025-05-04T09:40:19Z",
+      "pushedAt": "2025-07-13T10:19:52Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "1fcf6d7c5c807e8d90be665024ee5243f4de3409",
+          "message": "补充mysql和redis可视化界面",
+          "date": "2025-07-13T10:15:37Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/app-docker-compose/commit/1fcf6d7c5c807e8d90be665024ee5243f4de3409"
+        },
+        {
+          "sha": "e0067f54cddf489beed543486a25807b1656bb90",
+          "message": "修改gitignore文件",
+          "date": "2025-05-27T13:48:18Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/app-docker-compose/commit/e0067f54cddf489beed543486a25807b1656bb90"
+        },
+        {
+          "sha": "12632793833cada0b8abb1c651959e60aef5cf15",
+          "message": "补充了一个用于学习时使用的快速脚本",
+          "date": "2025-05-15T16:32:00Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/app-docker-compose/commit/12632793833cada0b8abb1c651959e60aef5cf15"
+        }
+      ]
+    },
+    {
+      "id": 983366779,
+      "name": "spring-hzx",
+      "fullName": "01Petard/spring-hzx",
+      "description": "基于JDK21+SpringBoot3的后端开发框架",
+      "url": "https://github.com/01Petard/spring-hzx",
+      "homepage": null,
+      "createdAt": "2025-05-14T09:22:50Z",
+      "pushedAt": "2025-05-14T12:34:54Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "71d7740dc66a9cc859cd4009baa1a0f080910742",
+          "message": "调整版本，但是目前依然有问题",
+          "date": "2025-05-14T12:34:47Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/spring-hzx/commit/71d7740dc66a9cc859cd4009baa1a0f080910742"
+        },
+        {
+          "sha": "567f02830b820399b48e755ba990df095d43a65e",
+          "message": "init",
+          "date": "2025-05-14T09:21:38Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/spring-hzx/commit/567f02830b820399b48e755ba990df095d43a65e"
+        }
+      ]
+    },
+    {
+      "id": 987393664,
+      "name": "Pintree-fav",
+      "fullName": "01Petard/Pintree-fav",
+      "description": "用pintree生成可分享的网络收藏夹",
+      "url": "https://github.com/01Petard/Pintree-fav",
+      "homepage": "https://fav.bugstack.top",
+      "createdAt": "2025-05-21T02:36:42Z",
+      "pushedAt": "2026-09-10T02:08:19Z",
+      "language": "CSS",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "013cb9a0899dde4bda392ec1330126ef99fa4d74",
+          "message": "Add files via upload",
+          "date": "2026-09-10T02:08:18Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Pintree-fav/commit/013cb9a0899dde4bda392ec1330126ef99fa4d74"
+        },
+        {
+          "sha": "63cd236be5e311da3b1ea8400b6dd1e8befa4292",
+          "message": "Update CNAME",
+          "date": "2026-08-18T01:12:44Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Pintree-fav/commit/63cd236be5e311da3b1ea8400b6dd1e8befa4292"
+        },
+        {
+          "sha": "d5fc197db82db22686e9686f9d798f6978b4695e",
+          "message": "Add files via upload",
+          "date": "2026-08-05T07:02:00Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Pintree-fav/commit/d5fc197db82db22686e9686f9d798f6978b4695e"
+        }
+      ]
+    },
+    {
+      "id": 994177737,
+      "name": "blog-mono",
+      "fullName": "01Petard/blog-mono",
+      "description": "基于JDK17 + SpringBoot 3 + thymeleaf 的前后端不分离小而美博客",
+      "url": "https://github.com/01Petard/blog-mono",
+      "homepage": null,
+      "createdAt": "2025-06-01T11:41:39Z",
+      "pushedAt": "2025-08-13T16:22:21Z",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "38e7c6984a33d2bc88298c0f8abfcd6b28b728cf",
+          "message": "feat: 升级项目技术栈与架构，换为JDK17、SpringBoot3等等",
+          "date": "2025-08-13T16:22:14Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/blog-mono/commit/38e7c6984a33d2bc88298c0f8abfcd6b28b728cf"
+        },
+        {
+          "sha": "d70bba70fa90aa4ddea67eca40d20e1535dd8afe",
+          "message": "fix：修改文档",
+          "date": "2025-06-01T11:43:44Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/blog-mono/commit/d70bba70fa90aa4ddea67eca40d20e1535dd8afe"
+        },
+        {
+          "sha": "d7f83c48838ca269a8d604d61767bead63e665e1",
+          "message": "fix：修改项目名",
+          "date": "2025-06-01T11:41:05Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/blog-mono/commit/d7f83c48838ca269a8d604d61767bead63e665e1"
+        }
+      ]
+    },
+    {
+      "id": 995409380,
+      "name": "beauty-media-info",
+      "fullName": "01Petard/beauty-media-info",
+      "description": "基于mediainfo指令二次开发的MacOS终端媒体文件信息查看脚本",
+      "url": "https://github.com/01Petard/beauty-media-info",
+      "homepage": null,
+      "createdAt": "2025-06-03T12:44:36Z",
+      "pushedAt": "2025-06-03T15:04:09Z",
+      "language": "Shell",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "5c53194f97ee9e8824e10a744fbc24cb81a1e7ec",
+          "message": "update README.md",
+          "date": "2025-06-03T15:04:03Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/beauty-media-info/commit/5c53194f97ee9e8824e10a744fbc24cb81a1e7ec"
+        },
+        {
+          "sha": "4938c36ddb15496383597080db8d369ab5b60069",
+          "message": "update README.md",
+          "date": "2025-06-03T13:02:54Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/beauty-media-info/commit/4938c36ddb15496383597080db8d369ab5b60069"
+        },
+        {
+          "sha": "8655f9f2c037dd5d7d253a506d41d6b4b3789136",
+          "message": "update README.md",
+          "date": "2025-06-03T13:01:49Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/beauty-media-info/commit/8655f9f2c037dd5d7d253a506d41d6b4b3789136"
+        }
+      ]
+    },
+    {
+      "id": 1000278580,
+      "name": "uv_tools_project",
+      "fullName": "01Petard/uv_tools_project",
+      "description": "Python工具库",
+      "url": "https://github.com/01Petard/uv_tools_project",
+      "homepage": null,
+      "createdAt": "2025-06-11T14:30:07Z",
+      "pushedAt": "2025-11-30T15:26:21Z",
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "a32fd07f1ec5e40bd7f8fc4b4efb78e203fcf61e",
+          "message": "update README.md",
+          "date": "2025-11-30T07:03:42Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/uv_tools_project/commit/a32fd07f1ec5e40bd7f8fc4b4efb78e203fcf61e"
+        },
+        {
+          "sha": "cd1b00f546bbae51c9381aaa2c7e1340a4589373",
+          "message": "init",
+          "date": "2025-08-22T10:19:19Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/uv_tools_project/commit/cd1b00f546bbae51c9381aaa2c7e1340a4589373"
+        }
+      ]
+    },
+    {
+      "id": 1014343133,
+      "name": "consultant",
+      "fullName": "01Petard/consultant",
+      "description": "基于LangChain4j的RAG知识库AI志愿填报顾问系统",
+      "url": "https://github.com/01Petard/consultant",
+      "homepage": "https://www.codebox.icu:8888/",
+      "createdAt": "2025-07-05T14:31:29Z",
+      "pushedAt": "2025-08-28T07:30:11Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 2,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "b1afa9ce407f316370d580313167a5aa6b4a602c",
+          "message": "完善代码",
+          "date": "2025-08-28T07:29:44Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/consultant/commit/b1afa9ce407f316370d580313167a5aa6b4a602c"
+        },
+        {
+          "sha": "00c528a2f1c562a4823148fd8088e426dffe36e5",
+          "message": "优化代码",
+          "date": "2025-07-23T13:53:44Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/consultant/commit/00c528a2f1c562a4823148fd8088e426dffe36e5"
+        },
+        {
+          "sha": "74de5246136cf69abaceab20696018f60b00dbfe",
+          "message": "优化代码",
+          "date": "2025-07-23T12:54:22Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/consultant/commit/74de5246136cf69abaceab20696018f60b00dbfe"
+        }
+      ]
+    },
+    {
+      "id": 1015376446,
+      "name": "spring-ai-protal",
+      "fullName": "01Petard/spring-ai-protal",
+      "description": "基于Spring AI的聊天机器人 前端页面",
+      "url": "https://github.com/01Petard/spring-ai-protal",
+      "homepage": "https://www.codebox.icu:5173/",
+      "createdAt": "2025-07-07T12:10:37Z",
+      "pushedAt": "2025-07-07T12:15:21Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "b69a08e82e0dac6206124f7fef7ca0cc30effe83",
+          "message": "init",
+          "date": "2025-07-07T12:13:45Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/spring-ai-protal/commit/b69a08e82e0dac6206124f7fef7ca0cc30effe83"
+        }
+      ]
+    },
+    {
+      "id": 1015380108,
+      "name": "spring-ai-backend",
+      "fullName": "01Petard/spring-ai-backend",
+      "description": "基于Spring AI的聊天机器人",
+      "url": "https://github.com/01Petard/spring-ai-backend",
+      "homepage": "https://www.codebox.icu:5173/",
+      "createdAt": "2025-07-07T12:17:18Z",
+      "pushedAt": "2026-02-13T09:16:16Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "441f046017bc207a50a72953d5cdd4b4f33f68c5",
+          "message": "update",
+          "date": "2026-02-13T09:16:11Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/spring-ai-backend/commit/441f046017bc207a50a72953d5cdd4b4f33f68c5"
+        },
+        {
+          "sha": "f4a4b4ae8c76fa87694a31d8d92b9b35aef54d82",
+          "message": "更新redis信息",
+          "date": "2026-02-13T08:52:05Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/spring-ai-backend/commit/f4a4b4ae8c76fa87694a31d8d92b9b35aef54d82"
+        },
+        {
+          "sha": "86446d2f45c98f0ab653cc6058cbbd65b0bd2474",
+          "message": "对话内容持久化到Redis中",
+          "date": "2025-08-27T08:32:53Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/spring-ai-backend/commit/86446d2f45c98f0ab653cc6058cbbd65b0bd2474"
+        }
+      ]
+    },
+    {
+      "id": 1044781004,
+      "name": "spring-cloud-hzx",
+      "fullName": "01Petard/spring-cloud-hzx",
+      "description": "基于JDK17+SpringCloud Alibaba的学习项目",
+      "url": "https://github.com/01Petard/spring-cloud-hzx",
+      "homepage": null,
+      "createdAt": "2025-08-26T07:44:43Z",
+      "pushedAt": "2025-08-26T07:44:57Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "bbcc721f240ef31be23a06fb99739fc5c1cd8031",
+          "message": "init",
+          "date": "2025-08-26T07:43:01Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/spring-cloud-hzx/commit/bbcc721f240ef31be23a06fb99739fc5c1cd8031"
+        }
+      ]
+    },
+    {
+      "id": 1067639932,
+      "name": "laravel-study",
+      "fullName": "01Petard/laravel-study",
+      "description": "学习一下PHP的Laravel框架",
+      "url": "https://github.com/01Petard/laravel-study",
+      "homepage": null,
+      "createdAt": "2025-10-01T06:54:13Z",
+      "pushedAt": "2025-10-01T06:55:33Z",
+      "language": "PHP",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "e69280e8272e0594b697ee7947ebd4fff3c40685",
+          "message": "init",
+          "date": "2025-10-01T06:52:38Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/laravel-study/commit/e69280e8272e0594b697ee7947ebd4fff3c40685"
+        }
+      ]
+    },
+    {
+      "id": 1102410139,
+      "name": "demo_springboot4",
+      "fullName": "01Petard/demo_springboot4",
+      "description": "学习一下Spring Boot 4 和一些新的包",
+      "url": "https://github.com/01Petard/demo_springboot4",
+      "homepage": null,
+      "createdAt": "2025-11-23T12:15:21Z",
+      "pushedAt": "2026-03-14T05:58:07Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "8cdfb6407c012fae30df7cd861c04cc064cd0d21",
+          "message": "学习Jimmer",
+          "date": "2026-03-04T12:54:52Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/demo_springboot4/commit/8cdfb6407c012fae30df7cd861c04cc064cd0d21"
+        },
+        {
+          "sha": "fe9fadcb22b550b541d2f3a8afc596f098d20133",
+          "message": "打印三角形",
+          "date": "2026-03-02T08:01:38Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/demo_springboot4/commit/fe9fadcb22b550b541d2f3a8afc596f098d20133"
+        },
+        {
+          "sha": "4e8c4527d6bb2e546523de130331556551cd856d",
+          "message": "update",
+          "date": "2026-02-19T14:41:31Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/demo_springboot4/commit/4e8c4527d6bb2e546523de130331556551cd856d"
+        }
+      ]
+    },
+    {
+      "id": 1106137053,
+      "name": "bit-visit-booking",
+      "fullName": "01Petard/bit-visit-booking",
+      "description": "北京理工大学访客预约系统",
+      "url": "https://github.com/01Petard/bit-visit-booking",
+      "homepage": "https://bit.bugstack.icu",
+      "createdAt": "2025-11-28T17:32:02Z",
+      "pushedAt": "2025-12-26T18:02:35Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "7fc9b1d5929fa3b345ea1b60786013771db2dc77",
+          "message": "Update index.html",
+          "date": "2025-12-26T18:02:35Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/bit-visit-booking/commit/7fc9b1d5929fa3b345ea1b60786013771db2dc77"
+        },
+        {
+          "sha": "99a3eb6d4c5a69bac0225c806080877e95088d68",
+          "message": "Update index.html",
+          "date": "2025-11-30T15:46:17Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/bit-visit-booking/commit/99a3eb6d4c5a69bac0225c806080877e95088d68"
+        },
+        {
+          "sha": "ad38a00044e657e51e123ea9e1fc5af99af0ddf3",
+          "message": "update",
+          "date": "2025-11-30T15:14:18Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/bit-visit-booking/commit/ad38a00044e657e51e123ea9e1fc5af99af0ddf3"
+        }
+      ]
+    },
+    {
+      "id": 1106902527,
+      "name": "off-work-time",
+      "fullName": "01Petard/off-work-time",
+      "description": "",
+      "url": "https://github.com/01Petard/off-work-time",
+      "homepage": "https://shutdown.bugstack.icu",
+      "createdAt": "2025-11-30T07:13:10Z",
+      "pushedAt": "2025-12-23T15:48:48Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "b9fda05ff653398f31e78234e9f1b01202fa2a57",
+          "message": "Update index.html",
+          "date": "2025-12-23T15:48:47Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/off-work-time/commit/b9fda05ff653398f31e78234e9f1b01202fa2a57"
+        },
+        {
+          "sha": "66dfeface0e1193a10bd8a0912748d9d2aab1e3e",
+          "message": "Update index.html",
+          "date": "2025-11-30T15:13:53Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/off-work-time/commit/66dfeface0e1193a10bd8a0912748d9d2aab1e3e"
+        },
+        {
+          "sha": "405a43544aefde81e5f2bafb003af14bcb4768f3",
+          "message": "Update index.html",
+          "date": "2025-11-30T07:39:48Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/off-work-time/commit/405a43544aefde81e5f2bafb003af14bcb4768f3"
+        }
+      ]
+    },
+    {
+      "id": 1107513783,
+      "name": "zhipu-springai-demo",
+      "fullName": "01Petard/zhipu-springai-demo",
+      "description": "学习如何调用智谱清言官方的Spring AI框架",
+      "url": "https://github.com/01Petard/zhipu-springai-demo",
+      "homepage": null,
+      "createdAt": "2025-12-01T08:43:41Z",
+      "pushedAt": "2026-04-07T07:11:41Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "600729f21fd13a8ecb1214b141a84665cb07d51e",
+          "message": "学习alibaba-graph工作流",
+          "date": "2026-04-07T07:11:36Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/zhipu-springai-demo/commit/600729f21fd13a8ecb1214b141a84665cb07d51e"
+        },
+        {
+          "sha": "b61758a9704f8a9508ff4180c8d2bee3007d5fd9",
+          "message": "更换redis-stack向量数据库",
+          "date": "2026-04-06T06:20:47Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/zhipu-springai-demo/commit/b61758a9704f8a9508ff4180c8d2bee3007d5fd9"
+        },
+        {
+          "sha": "eb23d54b8ccf312279fc63281be829b82b1c723b",
+          "message": "学习本地mcp和第三方mcp的使用",
+          "date": "2026-04-03T07:08:01Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/zhipu-springai-demo/commit/eb23d54b8ccf312279fc63281be829b82b1c723b"
+        }
+      ]
+    },
+    {
+      "id": 1122319914,
+      "name": "What-is-your-IPv4",
+      "fullName": "01Petard/What-is-your-IPv4",
+      "description": "看看你的IPv4地址",
+      "url": "https://github.com/01Petard/What-is-your-IPv4",
+      "homepage": "https://ip.bugstack.icu",
+      "createdAt": "2025-12-24T13:41:29Z",
+      "pushedAt": "2025-12-24T14:07:45Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "e164483fda7877324912e4d09335e0f3b4d62b08",
+          "message": "Update index.html",
+          "date": "2025-12-24T14:07:45Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/What-is-your-IPv4/commit/e164483fda7877324912e4d09335e0f3b4d62b08"
+        },
+        {
+          "sha": "3f264edd3a5d519e6be8d2577ae52a79bfc3d31f",
+          "message": "Add files via upload",
+          "date": "2025-12-24T13:43:59Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/What-is-your-IPv4/commit/3f264edd3a5d519e6be8d2577ae52a79bfc3d31f"
+        }
+      ]
+    },
+    {
+      "id": 1156966568,
+      "name": "flight-booking-server",
+      "fullName": "01Petard/flight-booking-server",
+      "description": "基于Spring AI的现代化航班预订平台",
+      "url": "https://github.com/01Petard/flight-booking-server",
+      "homepage": null,
+      "createdAt": "2026-02-13T09:11:21Z",
+      "pushedAt": "2026-02-13T10:03:56Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "06e91e7577744a4407321e7ab7102a4e536bc9cc",
+          "message": "优化项目结构",
+          "date": "2026-02-13T10:03:53Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/flight-booking-server/commit/06e91e7577744a4407321e7ab7102a4e536bc9cc"
+        },
+        {
+          "sha": "219236a9fab07c60f7fac9ee178a68f3d834f841",
+          "message": "优化项目结构",
+          "date": "2026-02-13T10:02:40Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/flight-booking-server/commit/219236a9fab07c60f7fac9ee178a68f3d834f841"
+        },
+        {
+          "sha": "4bc2963ac923cde2cba0c9c2ecfb2de49e92dc2d",
+          "message": "优化项目结构",
+          "date": "2026-02-13T09:54:15Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/flight-booking-server/commit/4bc2963ac923cde2cba0c9c2ecfb2de49e92dc2d"
+        }
+      ]
+    },
+    {
+      "id": 1156967537,
+      "name": "flight-booking-web",
+      "fullName": "01Petard/flight-booking-web",
+      "description": "基于Spring AI的现代化航班预订平台",
+      "url": "https://github.com/01Petard/flight-booking-web",
+      "homepage": "https://flight-booking-web-gilt.vercel.app",
+      "createdAt": "2026-02-13T09:12:51Z",
+      "pushedAt": "2026-02-13T10:03:05Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "05116ba3b02d0f42c3b24654eb411ad360ba8f04",
+          "message": "init",
+          "date": "2026-02-13T10:03:02Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/flight-booking-web/commit/05116ba3b02d0f42c3b24654eb411ad360ba8f04"
+        },
+        {
+          "sha": "a1bc56701c5198a8305ed2a6c6db1f60271f21dd",
+          "message": "init",
+          "date": "2026-02-13T09:12:22Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/flight-booking-web/commit/a1bc56701c5198a8305ed2a6c6db1f60271f21dd"
+        }
+      ]
+    },
+    {
+      "id": 1164513928,
+      "name": "TerminalStart",
+      "fullName": "01Petard/TerminalStart",
+      "description": "Chromium Extension for Tech Bros",
+      "url": "https://github.com/01Petard/TerminalStart",
+      "homepage": "https://start.bugstack.icu/",
+      "createdAt": "2026-02-23T07:02:16Z",
+      "pushedAt": "2026-02-21T16:59:58Z",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "3d1fac40544b63066f362984fb38924c65688d51",
+          "message": "Add Todoist integration, post-build script, and e2e tests\n\n- Sync todo widget with Todoist via personal API token\n- Dual mode: local tasks or Todoist tasks with seamless toggle\n- Natural language due dates in Todoist mode (tomorrow, next monday, etc.)\n- Optimistic UI updates with rollback on API failure\n- Settings UI for enabling sync and entering API token\n- Post-build script auto-syncs dist/ assets into extension/ folder\n- Playwright e2e tests for Todoist settings flow\n- Added Todoist host permission to manifest",
+          "date": "2026-02-21T16:59:49Z",
+          "author": "DevCSir",
+          "url": "https://github.com/01Petard/TerminalStart/commit/3d1fac40544b63066f362984fb38924c65688d51"
+        },
+        {
+          "sha": "41dd3e1a76ab8787af7331b8a22dc27820f8801c",
+          "message": "Fix default",
+          "date": "2026-02-21T12:23:37Z",
+          "author": "DevCSir",
+          "url": "https://github.com/01Petard/TerminalStart/commit/41dd3e1a76ab8787af7331b8a22dc27820f8801c"
+        },
+        {
+          "sha": "248762ecd2c1a4b4225dd1b51ed9a0e7a221141a",
+          "message": "Restructure project to modern extension layout\n\nMove all source into src/ with organized component subdirectories\n(widgets/, settings/, ui/), consolidate tests into tests/unit/ and\ntests/e2e/, move scripts to scripts/, screenshots to docs/.\nReplace relative imports with @/ path aliases throughout.\nUntrack dist/ build artifacts, remove stale audit.txt and\ndeprecated ExtensionTutorial component.",
+          "date": "2026-02-21T12:13:42Z",
+          "author": "DevCSir",
+          "url": "https://github.com/01Petard/TerminalStart/commit/248762ecd2c1a4b4225dd1b51ed9a0e7a221141a"
+        }
+      ]
+    },
+    {
+      "id": 1174028731,
+      "name": "demo_kotlin",
+      "fullName": "01Petard/demo_kotlin",
+      "description": "",
+      "url": "https://github.com/01Petard/demo_kotlin",
+      "homepage": null,
+      "createdAt": "2026-03-06T01:58:00Z",
+      "pushedAt": "2026-03-06T01:58:01Z",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": []
+    },
+    {
+      "id": 1177445872,
+      "name": "particle-saturn",
+      "fullName": "01Petard/particle-saturn",
+      "description": "基于摄像头和手势操控的粒子土星特效实现",
+      "url": "https://github.com/01Petard/particle-saturn",
+      "homepage": "https://saturn.bugstack.top",
+      "createdAt": "2026-03-10T03:07:24Z",
+      "pushedAt": "2026-03-10T03:10:06Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "eb7aabc10db04699e539b1e765f1f57468f987ba",
+          "message": "init",
+          "date": "2026-03-10T03:10:05Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/particle-saturn/commit/eb7aabc10db04699e539b1e765f1f57468f987ba"
+        },
+        {
+          "sha": "971178ee0214b6888c693f82d304e9d615b15fb7",
+          "message": "Rename 粒子土星.html to index.html",
+          "date": "2026-03-10T03:09:43Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/particle-saturn/commit/971178ee0214b6888c693f82d304e9d615b15fb7"
+        },
+        {
+          "sha": "82978b39d7de1ef8e81e2ac19dac0a40a92a35de",
+          "message": "Add files via upload",
+          "date": "2026-03-10T03:08:12Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/particle-saturn/commit/82978b39d7de1ef8e81e2ac19dac0a40a92a35de"
+        }
+      ]
+    },
+    {
+      "id": 1177448992,
+      "name": "hand-gesture-detection",
+      "fullName": "01Petard/hand-gesture-detection",
+      "description": "基于MediaPipe人体骨架检测的摄像头手势捕捉功能的实现",
+      "url": "https://github.com/01Petard/hand-gesture-detection",
+      "homepage": "https://hand.bugstack.top",
+      "createdAt": "2026-03-10T03:12:49Z",
+      "pushedAt": "2026-03-10T03:13:44Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "edcc734abc21fdbe42b37194468a307a66bb5cd5",
+          "message": "Add files via upload",
+          "date": "2026-03-10T03:13:44Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/hand-gesture-detection/commit/edcc734abc21fdbe42b37194468a307a66bb5cd5"
+        },
+        {
+          "sha": "edae8cff1547c1e6bb7b0eaad364b5e2305d6702",
+          "message": "init",
+          "date": "2026-03-10T03:13:20Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/hand-gesture-detection/commit/edae8cff1547c1e6bb7b0eaad364b5e2305d6702"
+        },
+        {
+          "sha": "a702811cd4858a58fd1f4eeacca5e9b8fdca7c1e",
+          "message": "Add files via upload",
+          "date": "2026-03-10T03:13:01Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/hand-gesture-detection/commit/a702811cd4858a58fd1f4eeacca5e9b8fdca7c1e"
+        }
+      ]
+    },
+    {
+      "id": 1177451706,
+      "name": "pixel-morph-generator",
+      "fullName": "01Petard/pixel-morph-generator",
+      "description": "像素变形生成器",
+      "url": "https://github.com/01Petard/pixel-morph-generator",
+      "homepage": "https://pixel.bugstack.top",
+      "createdAt": "2026-03-10T03:17:28Z",
+      "pushedAt": "2026-03-10T03:17:58Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "a17eb82e6b0e4bb749a8bb4335731211dd727cfa",
+          "message": "init",
+          "date": "2026-03-10T03:17:57Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/pixel-morph-generator/commit/a17eb82e6b0e4bb749a8bb4335731211dd727cfa"
+        },
+        {
+          "sha": "45b8ba9087f72606b5597257f9439db5ea915b5e",
+          "message": "Add files via upload",
+          "date": "2026-03-10T03:17:41Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/pixel-morph-generator/commit/45b8ba9087f72606b5597257f9439db5ea915b5e"
+        }
+      ]
+    },
+    {
+      "id": 1177463497,
+      "name": "hajimi-encoder",
+      "fullName": "01Petard/hajimi-encoder",
+      "description": "基于三进制映射的文本可逆编码与混淆算法",
+      "url": "https://github.com/01Petard/hajimi-encoder",
+      "homepage": "https://hajimi.bugstack.top",
+      "createdAt": "2026-03-10T03:38:34Z",
+      "pushedAt": "2026-08-31T00:40:19Z",
+      "language": "CSS",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {
+        "CSS": 18071,
+        "JavaScript": 17177,
+        "HTML": 6280
+      },
+      "releases": [],
+      "commits": [
+        {
+          "sha": "6826f52159196d75963f669c3b72fffc53ab56bc",
+          "message": "Update index.html",
+          "date": "2026-08-31T00:40:18Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/hajimi-encoder/commit/6826f52159196d75963f669c3b72fffc53ab56bc"
+        },
+        {
+          "sha": "5dc62ce41866759ed8e525ec82267b4e998956a7",
+          "message": "界面美化与交互升级\n\n- 引入设计令牌体系：粉色 accent 全阶色、圆角/间距/阴影/动效刻度，浅深双主题（跟随系统 + 手动切换持久化）\n- 自托管 ZCOOL 快乐体展示字体，赛马娘立绘改为圆角渐隐背景面板\n- 新增交换/清空/快捷键/字符计数/加密反馈/toast 精修\n- 改为上下排版：介绍卡在上、加密卡在下，两卡同宽\n- 补充算法原理说明 PRINCIPLE.md\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+          "date": "2026-08-20T02:50:51Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/hajimi-encoder/commit/5dc62ce41866759ed8e525ec82267b4e998956a7"
+        },
+        {
+          "sha": "6aa025197ee74864c39a1eb239064299e40f8d6e",
+          "message": "update",
+          "date": "2026-03-10T03:35:32Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/hajimi-encoder/commit/6aa025197ee74864c39a1eb239064299e40f8d6e"
+        }
+      ]
+    },
+    {
+      "id": 1181573801,
+      "name": "example-springboot",
+      "fullName": "01Petard/example-springboot",
+      "description": "一个基于continew框架的SpringBoot脚手架",
+      "url": "https://github.com/01Petard/example-springboot",
+      "homepage": null,
+      "createdAt": "2026-03-14T10:27:06Z",
+      "pushedAt": "2026-03-21T14:36:52Z",
+      "language": "Java",
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "67d4bfea9dbb8599e09f20101cf9e3ac6a677ba0",
+          "message": "fix(1.0.1): 认证",
+          "date": "2026-03-21T14:36:48Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/example-springboot/commit/67d4bfea9dbb8599e09f20101cf9e3ac6a677ba0"
+        },
+        {
+          "sha": "727f11b1727a3240181aa48bc80c538154f89a05",
+          "message": "fix(1.0.1): 认证",
+          "date": "2026-03-21T14:35:24Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/example-springboot/commit/727f11b1727a3240181aa48bc80c538154f89a05"
+        },
+        {
+          "sha": "fab8d5459199f79175d819cef9101e03be00a18a",
+          "message": "fix(1.0.1): 认证",
+          "date": "2026-03-21T14:34:45Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/example-springboot/commit/fab8d5459199f79175d819cef9101e03be00a18a"
+        }
+      ]
+    },
+    {
+      "id": 1184908936,
+      "name": "blog-public",
+      "fullName": "01Petard/blog-public",
+      "description": "一个NextJs项目写的开源blog，让你不写代码就开始写 blog，管理 blog 内容。无需服务器，无需费用。",
+      "url": "https://github.com/01Petard/blog-public",
+      "homepage": "https://blog-public-erbp2rcl6-01petards-projects.vercel.app/",
+      "createdAt": "2026-03-18T03:37:53Z",
+      "pushedAt": "2026-03-18T04:35:37Z",
+      "language": "TypeScript",
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "66b4cd3a196e369940c9e52c1fed14a1e2d6bd49",
+          "message": "update",
+          "date": "2026-03-18T04:35:31Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/blog-public/commit/66b4cd3a196e369940c9e52c1fed14a1e2d6bd49"
+        },
+        {
+          "sha": "b861266920ddbe9afeb7f1195ff3912891ed34c0",
+          "message": "更新文章: cursor-keyboard",
+          "date": "2026-03-09T06:23:51Z",
+          "author": "2025-blog-public-app[bot]",
+          "url": "https://github.com/01Petard/blog-public/commit/b861266920ddbe9afeb7f1195ff3912891ed34c0"
+        },
+        {
+          "sha": "a6cd1084e02b550b63efdd1476dc1f584aeded9c",
+          "message": "更新文章: cursor-keyboard",
+          "date": "2026-03-06T02:12:01Z",
+          "author": "2025-blog-public-app[bot]",
+          "url": "https://github.com/01Petard/blog-public/commit/a6cd1084e02b550b63efdd1476dc1f584aeded9c"
+        }
+      ]
+    },
+    {
+      "id": 1186288035,
+      "name": "ai-agent-station-web",
+      "fullName": "01Petard/ai-agent-station-web",
+      "description": "",
+      "url": "https://github.com/01Petard/ai-agent-station-web",
+      "homepage": null,
+      "createdAt": "2026-03-19T13:21:11Z",
+      "pushedAt": "2026-03-19T13:47:17Z",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "ee46f515e6281a95c523da6f05cc8dafd7c98448",
+          "message": "init",
+          "date": "2026-03-19T13:47:13Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/ai-agent-station-web/commit/ee46f515e6281a95c523da6f05cc8dafd7c98448"
+        },
+        {
+          "sha": "96cc77189c32bb285bc5934aab1069214d77e24b",
+          "message": "init",
+          "date": "2026-03-19T13:30:35Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/ai-agent-station-web/commit/96cc77189c32bb285bc5934aab1069214d77e24b"
+        },
+        {
+          "sha": "580faf967d02fb362603f9c17f244da37af9ec9b",
+          "message": "init",
+          "date": "2026-03-19T13:18:44Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/ai-agent-station-web/commit/580faf967d02fb362603f9c17f244da37af9ec9b"
+        }
+      ]
+    },
+    {
+      "id": 1186314063,
+      "name": "ai-agent-station-backend",
+      "fullName": "01Petard/ai-agent-station-backend",
+      "description": "",
+      "url": "https://github.com/01Petard/ai-agent-station-backend",
+      "homepage": null,
+      "createdAt": "2026-03-19T13:52:11Z",
+      "pushedAt": "2026-03-19T13:52:11Z",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": []
+    },
+    {
+      "id": 1195044389,
+      "name": "flare-stack-blog",
+      "fullName": "01Petard/flare-stack-blog",
+      "description": "A modern full-stack blog CMS driven by Cloudflare. | 基于 Cloudflare 生态的全栈现代化博客 CMS。",
+      "url": "https://github.com/01Petard/flare-stack-blog",
+      "homepage": "https://blog.dukda.com",
+      "createdAt": "2026-03-29T06:17:07Z",
+      "pushedAt": "2026-03-28T21:57:34Z",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "bd855ea213305a964c39b3f86a8e5d5dd87aafa7",
+          "message": "chore: 配置 Husky 提交前检查 [skip ci]\n\nchore: configure Husky pre-commit checks [skip ci]",
+          "date": "2026-03-26T09:29:37Z",
+          "author": "Zephyrrr",
+          "url": "https://github.com/01Petard/flare-stack-blog/commit/bd855ea213305a964c39b3f86a8e5d5dd87aafa7"
+        },
+        {
+          "sha": "d42ca8aca5693d3dc419da7f3df6a2a446b686a4",
+          "message": "fix: 浏览量记录从 loader 移至 useEffect，避免预加载误计\nfix: move pageview recording from loader to useEffect, prevent preload and refresh inflation",
+          "date": "2026-03-22T06:10:20Z",
+          "author": "Zephyrrr",
+          "url": "https://github.com/01Petard/flare-stack-blog/commit/d42ca8aca5693d3dc419da7f3df6a2a446b686a4"
+        },
+        {
+          "sha": "4b7d329b5961bce766ef59f83d3b54425760f0c0",
+          "message": "chore: release v1.4.2",
+          "date": "2026-03-22T05:46:15Z",
+          "author": "Zephyrrr",
+          "url": "https://github.com/01Petard/flare-stack-blog/commit/4b7d329b5961bce766ef59f83d3b54425760f0c0"
+        }
+      ]
+    },
+    {
+      "id": 1237336881,
+      "name": "agent-client-server",
+      "fullName": "01Petard/agent-client-server",
+      "description": "智能咖啡客服-服务端",
+      "url": "https://github.com/01Petard/agent-client-server",
+      "homepage": null,
+      "createdAt": "2026-05-13T05:02:25Z",
+      "pushedAt": "2026-05-13T05:07:05Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "58d3905d9b676d5e55996c68ed0430ef55700e8c",
+          "message": "init",
+          "date": "2026-05-13T05:06:58Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/agent-client-server/commit/58d3905d9b676d5e55996c68ed0430ef55700e8c"
+        },
+        {
+          "sha": "c92e5a6f0574e8aa64dbd9fd1e54b3a9dc1f6dae",
+          "message": "init",
+          "date": "2026-05-13T05:00:02Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/agent-client-server/commit/c92e5a6f0574e8aa64dbd9fd1e54b3a9dc1f6dae"
+        }
+      ]
+    },
+    {
+      "id": 1237337343,
+      "name": "agent-client-web",
+      "fullName": "01Petard/agent-client-web",
+      "description": "智能咖啡客服-客户端",
+      "url": "https://github.com/01Petard/agent-client-web",
+      "homepage": null,
+      "createdAt": "2026-05-13T05:03:14Z",
+      "pushedAt": "2026-05-13T05:04:45Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "1c1b0cf1c553672e1f6230fd921c11dc7b822d09",
+          "message": "init",
+          "date": "2026-05-13T05:04:07Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/agent-client-web/commit/1c1b0cf1c553672e1f6230fd921c11dc7b822d09"
+        },
+        {
+          "sha": "28be3c7d138af479ecd75a89c10079ed1fef9997",
+          "message": "init",
+          "date": "2026-05-13T05:01:26Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/agent-client-web/commit/28be3c7d138af479ecd75a89c10079ed1fef9997"
+        }
+      ]
+    },
+    {
+      "id": 1237338719,
+      "name": "agent-order-server",
+      "fullName": "01Petard/agent-order-server",
+      "description": "智能咖啡客服-客户端订单MCP功能",
+      "url": "https://github.com/01Petard/agent-order-server",
+      "homepage": null,
+      "createdAt": "2026-05-13T05:05:22Z",
+      "pushedAt": "2026-05-13T05:05:41Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "0ef8dcf5e450ec99f99330298eb04e633774a8f7",
+          "message": "init",
+          "date": "2026-05-13T05:05:31Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/agent-order-server/commit/0ef8dcf5e450ec99f99330298eb04e633774a8f7"
+        },
+        {
+          "sha": "50bbfd0386ee876aa4ba1fa477a91f4ba8b7f655",
+          "message": "init",
+          "date": "2026-05-13T04:48:13Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/agent-order-server/commit/50bbfd0386ee876aa4ba1fa477a91f4ba8b7f655"
+        }
+      ]
+    },
+    {
+      "id": 1308607653,
+      "name": "wifi-device-inspector",
+      "fullName": "01Petard/wifi-device-inspector",
+      "description": "看看谁在你的 Wi-Fi 网络里",
+      "url": "https://github.com/01Petard/wifi-device-inspector",
+      "homepage": "https://wifi-device-inspector.vercel.app",
+      "createdAt": "2026-07-22T09:04:16Z",
+      "pushedAt": "2026-07-22T09:04:40Z",
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "0824a7940e67cff26b878ea21356c1871712a3ed",
+          "message": "init",
+          "date": "2026-07-22T09:03:09Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/wifi-device-inspector/commit/0824a7940e67cff26b878ea21356c1871712a3ed"
+        }
+      ]
+    },
+    {
+      "id": 1322390092,
+      "name": "TrackFit",
+      "fullName": "01Petard/TrackFit",
+      "description": "个人健康信息管理平台。记录身体变化，看见习惯的影响！",
+      "url": "https://github.com/01Petard/TrackFit",
+      "homepage": "https://fit.bugstack.top",
+      "createdAt": "2026-08-04T01:46:35Z",
+      "pushedAt": "2026-10-08T04:49:44Z",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {
+        "TypeScript": 212310,
+        "Vue": 187404,
+        "CSS": 5354,
+        "JavaScript": 820,
+        "Dockerfile": 678
+      },
+      "releases": [],
+      "commits": [
+        {
+          "sha": "9ab309870a6ea3ad8d31190cade65aeaa121912e",
+          "message": "fix: 统一主页的按钮风格",
+          "date": "2026-10-08T04:49:38Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/TrackFit/commit/9ab309870a6ea3ad8d31190cade65aeaa121912e"
+        },
+        {
+          "sha": "6f9336317c92a3540535ce2c339907abdb9b687b",
+          "message": "feat: 优化图表的 图例、刻度、均线 效果显示",
+          "date": "2026-10-08T04:47:23Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/TrackFit/commit/6f9336317c92a3540535ce2c339907abdb9b687b"
+        },
+        {
+          "sha": "b6cc765576eaaf673defd9f124f67527afe87698",
+          "message": "feat: 高亮选中均线",
+          "date": "2026-10-08T04:35:05Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/TrackFit/commit/b6cc765576eaaf673defd9f124f67527afe87698"
+        }
+      ]
+    },
+    {
+      "id": 1325006426,
+      "name": "zhuzhiliao",
+      "fullName": "01Petard/zhuzhiliao",
+      "description": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。",
+      "url": "https://github.com/01Petard/zhuzhiliao",
+      "homepage": "https://zhuzhiliao.icu",
+      "createdAt": "2026-08-06T09:13:46Z",
+      "pushedAt": "2026-09-30T15:25:49Z",
+      "language": "HTML",
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "199e203b038ffb515f3a21189a29da4b4fb8518f",
+          "message": "Merge pull request #98 from imsai-sh/codex/add-star-history\n\nupdate",
+          "date": "2026-08-14T14:31:32Z",
+          "author": "sai",
+          "url": "https://github.com/01Petard/zhuzhiliao/commit/199e203b038ffb515f3a21189a29da4b4fb8518f"
+        },
+        {
+          "sha": "c6cf86761473dc9998793defcd1cbf7bd2b2b8f1",
+          "message": "README 加 Star History 趋势图\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+          "date": "2026-08-14T14:26:17Z",
+          "author": "imsai-sh",
+          "url": "https://github.com/01Petard/zhuzhiliao/commit/c6cf86761473dc9998793defcd1cbf7bd2b2b8f1"
+        },
+        {
+          "sha": "a44b1800b41eebccb668055e39d44254b7a38117",
+          "message": "Merge pull request #97 from imsai-sh/codex/promote-deepseek-and-update-domain\n\nupdate",
+          "date": "2026-08-14T14:19:36Z",
+          "author": "sai",
+          "url": "https://github.com/01Petard/zhuzhiliao/commit/a44b1800b41eebccb668055e39d44254b7a38117"
+        }
+      ]
+    },
+    {
+      "id": 1330454916,
+      "name": "Autofill",
+      "fullName": "01Petard/Autofill",
+      "description": "基于大语言模型的浏览器表单辅助填写扩展插件",
+      "url": "https://github.com/01Petard/Autofill",
+      "homepage": "https://chromewebstore.google.com/detail/autofill/dpkbpaalhafihfcphnaihjmikfnpmbjj",
+      "createdAt": "2026-08-11T03:27:09Z",
+      "pushedAt": "2026-08-11T05:47:42Z",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {
+        "TypeScript": 86850,
+        "JavaScript": 4990,
+        "HTML": 616
+      },
+      "releases": [
+        {
+          "id": 368350549,
+          "title": "1.0.0",
+          "tag": "1.0.0",
+          "date": "2026-08-11T05:40:27Z",
+          "url": "https://github.com/01Petard/Autofill/releases/tag/1.0.0",
+          "prerelease": false
+        }
+      ],
+      "commits": [
+        {
+          "sha": "811533cf82dcdc18ccf232c79d3d9852d825c153",
+          "message": "init",
+          "date": "2026-08-11T05:47:36Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/Autofill/commit/811533cf82dcdc18ccf232c79d3d9852d825c153"
+        },
+        {
+          "sha": "ec776f5c73e7f6e180f4beaf13fbc48bde87bd55",
+          "message": "init",
+          "date": "2026-08-11T05:32:15Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/Autofill/commit/ec776f5c73e7f6e180f4beaf13fbc48bde87bd55"
+        },
+        {
+          "sha": "05dcd93d44f98a8deb1a6499de38a4023128858c",
+          "message": "docs: design model connection test",
+          "date": "2026-08-11T05:31:24Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/Autofill/commit/05dcd93d44f98a8deb1a6499de38a4023128858c"
+        }
+      ]
+    },
+    {
+      "id": 1336721922,
+      "name": "GiscusDiscussions",
+      "fullName": "01Petard/GiscusDiscussions",
+      "description": "giscus评论区",
+      "url": "https://github.com/01Petard/GiscusDiscussions",
+      "homepage": null,
+      "createdAt": "2026-08-17T05:39:14Z",
+      "pushedAt": "2026-08-19T03:48:58Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "0a30dad9c4d5734bbf69c80ac538582f8573e1d4",
+          "message": "Update giscus.json",
+          "date": "2026-08-19T03:48:57Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/GiscusDiscussions/commit/0a30dad9c4d5734bbf69c80ac538582f8573e1d4"
+        },
+        {
+          "sha": "531e9c690cff400cd37ed38b8873cb3b32c789f2",
+          "message": "Update README.md",
+          "date": "2026-08-18T02:20:04Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/GiscusDiscussions/commit/531e9c690cff400cd37ed38b8873cb3b32c789f2"
+        },
+        {
+          "sha": "a939ce54d1eba537e1268da3bc36f7adb9b437e6",
+          "message": "Update README.md",
+          "date": "2026-08-18T02:18:31Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/GiscusDiscussions/commit/a939ce54d1eba537e1268da3bc36f7adb9b437e6"
+        }
+      ]
+    },
+    {
+      "id": 1347513547,
+      "name": "AxiomPlatformSuite-ml-web",
+      "fullName": "01Petard/AxiomPlatformSuite-ml-web",
+      "description": "",
+      "url": "https://github.com/01Petard/AxiomPlatformSuite-ml-web",
+      "homepage": "https://axiom-forge.bugstack.top",
+      "createdAt": "2026-08-26T15:43:41Z",
+      "pushedAt": "2026-08-26T16:04:55Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "a0d6e7f1f7e82670b9873106bf9be95520652be3",
+          "message": "fix",
+          "date": "2026-08-26T16:04:47Z",
+          "author": "huangzx",
+          "url": "https://github.com/01Petard/AxiomPlatformSuite-ml-web/commit/a0d6e7f1f7e82670b9873106bf9be95520652be3"
+        },
+        {
+          "sha": "3f25c772d3c193884afe1c1c6657332e824f6b48",
+          "message": "UPDATE README.md",
+          "date": "2026-08-26T16:01:29Z",
+          "author": "huangzx",
+          "url": "https://github.com/01Petard/AxiomPlatformSuite-ml-web/commit/3f25c772d3c193884afe1c1c6657332e824f6b48"
+        },
+        {
+          "sha": "01d8fbe479bec711bea3a711177ca4d215279548",
+          "message": "调整一些问题",
+          "date": "2026-08-26T15:49:34Z",
+          "author": "huangzx",
+          "url": "https://github.com/01Petard/AxiomPlatformSuite-ml-web/commit/01d8fbe479bec711bea3a711177ca4d215279548"
+        }
+      ]
+    },
+    {
+      "id": 1358837986,
+      "name": "ai-orchestrator-web",
+      "fullName": "01Petard/ai-orchestrator-web",
+      "description": "仿ChatGPT风格的在线Agent应用演示Demo，后端：https://github.com/01Petard/ai-orchestrator-server",
+      "url": "https://github.com/01Petard/ai-orchestrator-web",
+      "homepage": "https://chat.bugstack.top",
+      "createdAt": "2026-09-06T06:02:56Z",
+      "pushedAt": "2026-09-09T02:57:47Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 1,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "9e0a1d9ec49dd360adc0aaba196de32c9e92771c",
+          "message": "feat: 增加访客登录按钮，支持跳过身份验证",
+          "date": "2026-09-06T06:21:07Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/ai-orchestrator-web/commit/9e0a1d9ec49dd360adc0aaba196de32c9e92771c"
+        },
+        {
+          "sha": "d8530c8803e6fca42805168e1df4e349b3c9448c",
+          "message": "feat: 发布脱敏后的 Demo 初始快照",
+          "date": "2026-09-06T06:07:51Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/ai-orchestrator-web/commit/d8530c8803e6fca42805168e1df4e349b3c9448c"
+        }
+      ]
+    },
+    {
+      "id": 1358838255,
+      "name": "ai-orchestrator-server",
+      "fullName": "01Petard/ai-orchestrator-server",
+      "description": "基于SpringBoot 4 和 Spring AI 2的在线Agent应用服务端学习与企业化Demo，前端：https://github.com/01Petard/ai-orchestrator-web",
+      "url": "https://github.com/01Petard/ai-orchestrator-server",
+      "homepage": "https://chat.bugstack.top",
+      "createdAt": "2026-09-06T06:03:21Z",
+      "pushedAt": "2026-09-06T06:14:17Z",
+      "language": "Java",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "202c1dff931f50d35f48580c87a40474de3df16f",
+          "message": "feat: 发布脱敏后的 Demo 初始快照",
+          "date": "2026-09-06T06:07:23Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/ai-orchestrator-server/commit/202c1dff931f50d35f48580c87a40474de3df16f"
+        }
+      ]
+    },
+    {
+      "id": 1369135560,
+      "name": "Terra-Height-Survey",
+      "fullName": "01Petard/Terra-Height-Survey",
+      "description": "⚠️⚠️⚠️Warning：NSFW⚠️⚠️⚠️（R18同人向：泰拉身高体检）",
+      "url": "https://github.com/01Petard/Terra-Height-Survey",
+      "homepage": "https://terra-height-survey.bugstack.top",
+      "createdAt": "2026-09-14T01:55:30Z",
+      "pushedAt": "2026-09-14T05:55:41Z",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "bb3a213fe8a586ecb0bd6c13e3c443ad0ecbf4cd",
+          "message": "Add files via upload",
+          "date": "2026-09-14T05:55:40Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Terra-Height-Survey/commit/bb3a213fe8a586ecb0bd6c13e3c443ad0ecbf4cd"
+        },
+        {
+          "sha": "5dca31f8cc1663e48a335caaed24d802418f7a31",
+          "message": "Update README with additional information and links\n\nAdded author and reference links to README.",
+          "date": "2026-09-14T05:40:25Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Terra-Height-Survey/commit/5dca31f8cc1663e48a335caaed24d802418f7a31"
+        },
+        {
+          "sha": "a2107ad5f6b206a61b224f00518f8e8d91dd4b2f",
+          "message": "Update README.md",
+          "date": "2026-09-14T02:38:17Z",
+          "author": "01Petard",
+          "url": "https://github.com/01Petard/Terra-Height-Survey/commit/a2107ad5f6b206a61b224f00518f8e8d91dd4b2f"
+        }
+      ]
+    },
+    {
+      "id": 1391090135,
+      "name": "E-Hentai-Fetcher",
+      "fullName": "01Petard/E-Hentai-Fetcher",
+      "description": "面向 E-Hentai / ExHentai 的第三方图库客户端与替代前端",
+      "url": "https://github.com/01Petard/E-Hentai-Fetcher",
+      "homepage": "https://e-gallery.bugstack.top",
+      "createdAt": "2026-09-27T16:02:04Z",
+      "pushedAt": "2026-10-08T07:01:44Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {
+        "Vue": 142154,
+        "CSS": 116489,
+        "JavaScript": 109975,
+        "HTML": 35314,
+        "Dockerfile": 826,
+        "Shell": 655
+      },
+      "releases": [],
+      "commits": [
+        {
+          "sha": "288c7523de496d83f9348ac4f18ab1074f5903bc",
+          "message": "feat: 新增“隐私模式”，增加悬浮窗预览面积",
+          "date": "2026-10-08T07:01:39Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/E-Hentai-Fetcher/commit/288c7523de496d83f9348ac4f18ab1074f5903bc"
+        },
+        {
+          "sha": "d22ba5e5cf95c07e93f5b4d63b6cb7842174fa8a",
+          "message": "perf: 优化搜索页、画廊详情页的加载慢的问题，提升流畅性",
+          "date": "2026-10-05T17:56:00Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/E-Hentai-Fetcher/commit/d22ba5e5cf95c07e93f5b4d63b6cb7842174fa8a"
+        },
+        {
+          "sha": "6918fc48d732d6829c3a005cd77e76f8a3f7f8ae",
+          "message": "fix: 快捷导航自适应表里站",
+          "date": "2026-10-05T17:28:23Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/E-Hentai-Fetcher/commit/6918fc48d732d6829c3a005cd77e76f8a3f7f8ae"
+        }
+      ]
+    },
+    {
+      "id": 1402580298,
+      "name": "Backflow",
+      "fullName": "01Petard/Backflow",
+      "description": "",
+      "url": "https://github.com/01Petard/Backflow",
+      "homepage": null,
+      "createdAt": "2026-10-03T02:52:09Z",
+      "pushedAt": "2026-10-03T03:00:22Z",
+      "language": "Vue",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": [
+        {
+          "sha": "a5cfe9265da8259a9a812ac01c915e366c43d68e",
+          "message": "init",
+          "date": "2026-10-03T03:00:07Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/Backflow/commit/a5cfe9265da8259a9a812ac01c915e366c43d68e"
+        },
+        {
+          "sha": "1ed8317a4a42e13884aee5dfe77dc0f1204c489b",
+          "message": "init",
+          "date": "2026-10-03T02:52:25Z",
+          "author": "huangzexiao",
+          "url": "https://github.com/01Petard/Backflow/commit/1ed8317a4a42e13884aee5dfe77dc0f1204c489b"
+        }
+      ]
+    },
+    {
+      "id": 1409843462,
+      "name": "RepoTime",
+      "fullName": "01Petard/RepoTime",
+      "description": "",
+      "url": "https://github.com/01Petard/RepoTime",
+      "homepage": null,
+      "createdAt": "2026-10-08T06:23:36Z",
+      "pushedAt": "2026-10-08T06:23:38Z",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "languages": {},
+      "releases": [],
+      "commits": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "tankwar",
+      "title": "TankWar",
+      "description": "java class final assignment",
+      "repositoryIds": [
+        230755726
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2019-12-29T13:42:36Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-255229751",
+      "title": "AndroidStudy",
+      "description": "",
+      "repositoryIds": [
+        255229751
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2020-04-13T04:19:50Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-519534005",
+      "title": "imageURL",
+      "description": "通过PicGo托管的个人图床",
+      "repositoryIds": [
+        519534005
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2022-07-30T14:11:29Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-520379491",
+      "title": "01Petard.github.io",
+      "description": "个人博客",
+      "repositoryIds": [
+        520379491
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2022-08-02T06:31:34Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-526821202",
+      "title": "blog-hexo-butterfly",
+      "description": "基于Hexo框架，采用butterfly 4.3美化，并经过大量魔改后的个人博客",
+      "repositoryIds": [
+        526821202
+      ],
+      "category": "JavaScript",
+      "categorySource": "language",
+      "date": "2022-08-20T04:08:03Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 1,
+      "technologies": [
+        "JavaScript"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-620882845",
+      "title": "1.FaceRecognition",
+      "description": "",
+      "repositoryIds": [
+        620882845
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2023-03-29T14:56:19Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-652464723",
+      "title": "Android_Frameworks",
+      "description": "安卓开发学习中常用的框架、界面布局",
+      "repositoryIds": [
+        652464723
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2023-06-12T06:08:29Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-652468280",
+      "title": "Android_DevPictures",
+      "description": "安卓开发学习中常用的图片、icon",
+      "repositoryIds": [
+        652468280
+      ],
+      "category": "JavaScript",
+      "categorySource": "language",
+      "date": "2023-06-12T06:18:47Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "JavaScript"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-652469188",
+      "title": "Homemaker",
+      "description": "一个安卓上的外卖app项目，项目名称：A类-随手快递APP平台系统-GeekStudio队源代码",
+      "repositoryIds": [
+        652469188
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2023-06-12T06:21:04Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 1,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-652470120",
+      "title": "KanMeiTu",
+      "description": "安卓入门学习项目，可以查看几张网页的图片",
+      "repositoryIds": [
+        652470120
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2023-06-12T06:23:50Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-652471515",
+      "title": "News",
+      "description": "本科期间的安卓课程大作业，是一个具有联网功能的新闻类app",
+      "repositoryIds": [
+        652471515
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2023-06-12T06:27:58Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 3,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-652472751",
+      "title": "Picturesque-Zhejiang",
+      "description": "2019年浙江省大学生竞赛诗画浙江，“浙秀汇”队伍安卓端项目源码，仓库作者为队伍队长",
+      "repositoryIds": [
+        652472751
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2023-06-12T06:31:31Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-654836246",
+      "title": "Revit2dev-ZBIM",
+      "description": "使用Revit API进行二次开发，对工程建模进行测试",
+      "repositoryIds": [
+        654836246
+      ],
+      "category": "C#",
+      "categorySource": "language",
+      "date": "2023-06-17T05:02:36Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 1,
+      "technologies": [
+        "C#"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-665973360",
+      "title": "sky-take-out",
+      "description": "一个单体类外卖后台管理平台服务端项目，此仓库仅包含后台服务端，其余文件见README",
+      "repositoryIds": [
+        665973360
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2023-07-13T12:17:09Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-684132583",
+      "title": "hmdp",
+      "description": "黑马点评（Redis学习）",
+      "repositoryIds": [
+        684132583
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2023-08-28T14:20:16Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-725421267",
+      "title": "smart_classroom",
+      "description": "课堂专注度及考试作弊系统、课堂动态点名。情绪识别、表情识别、姿态识别和人脸识别结合",
+      "repositoryIds": [
+        725421267
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2023-11-30T05:21:01Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-725421416",
+      "title": "smart_classroom_python_demo",
+      "description": "群体课堂专注度分析、考试作弊系统、动态点名功能的Qt Demo，使用多人姿态估计、情绪识别、人脸识别、静默活体检测等技术",
+      "repositoryIds": [
+        725421416
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2023-11-30T05:21:33Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-725421563",
+      "title": "smart_classroom_Java",
+      "description": "智慧教室项目的Java版本，尝试将多人姿态估计、情绪识别、人脸识别、静默活体检测等技术在java上实现。",
+      "repositoryIds": [
+        725421563
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2023-11-30T05:22:07Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-725421785",
+      "title": "smart_classroom_system",
+      "description": "智慧教室监考系统，作弊检测和考生点名功能（智慧教室的最后一个项目，尝试使用c++部署算法，使用TensorRT进行加速）",
+      "repositoryIds": [
+        725421785
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2023-11-30T05:22:57Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-732724679",
+      "title": "workspace_top-leadnews",
+      "description": "一个仿头条类app的微服务项目，包含前端nginx服务器、后端工程两部分",
+      "repositoryIds": [
+        732724679
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2023-12-17T16:22:29Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-735248223",
+      "title": "sky-take-out_supple",
+      "description": "对外卖项目的文件补充，包含微信小程序、nginx后台管理界面和Mysql数据库文件",
+      "repositoryIds": [
+        735248223
+      ],
+      "category": "JavaScript",
+      "categorySource": "language",
+      "date": "2023-12-24T07:56:52Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "JavaScript"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-812658797",
+      "title": "HzxSpringBoot",
+      "description": "本人在学习SpringBoot中有感而发，自己手写的一点感悟",
+      "repositoryIds": [
+        812658797
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2024-06-09T14:18:59Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-848197771",
+      "title": "mbdb",
+      "description": "Database",
+      "repositoryIds": [
+        848197771
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2024-08-27T10:13:28Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": true,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-861286085",
+      "title": "MYDB-HzxDB",
+      "description": "一个简单的数据库实现，修改了部分源码，添加了Show、Drop关键字以及部分优化",
+      "repositoryIds": [
+        861286085
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2024-09-22T13:55:14Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-861294783",
+      "title": "dynamic-thread-pool",
+      "description": "动态线程池，通过Redis实现消息的订阅发布、配置更改，可以无缝融入现有项目。通过JMX检测系统运行状况，实现线程池配置的动态缩扩",
+      "repositoryIds": [
+        861294783
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2024-09-22T14:19:16Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-868053037",
+      "title": "LeetCode",
+      "description": "急急急，我是Java算法大王！（一拳被大佬打死前的幻想......）",
+      "repositoryIds": [
+        868053037
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2024-10-05T10:59:21Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-876631541",
+      "title": "demo_easysession",
+      "description": "手写个token练着玩，顺便学习了一下 curl 命令的使用",
+      "repositoryIds": [
+        876631541
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2024-10-22T09:50:25Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-878835116",
+      "title": "demo_mq",
+      "description": "rabbitMQ学习代码",
+      "repositoryIds": [
+        878835116
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2024-10-26T08:32:50Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-883135121",
+      "title": "blog-vue-vitepress",
+      "description": "基于 Vue3 并以 Vite 驱动的 VitePress 文档模版框架，以此作为一个全新的个人知识库",
+      "repositoryIds": [
+        883135121
+      ],
+      "category": "Shell",
+      "categorySource": "language",
+      "date": "2024-11-04T12:45:22Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Shell"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-885787712",
+      "title": "flaskProject",
+      "description": "写一个基于Flask框架，可以与数据库交互的小程序",
+      "repositoryIds": [
+        885787712
+      ],
+      "category": "Python",
+      "categorySource": "language",
+      "date": "2024-11-09T11:57:02Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Python"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-887150449",
+      "title": "vue3-electron-rabbit",
+      "description": "electron版的“小兔鲜”项目",
+      "repositoryIds": [
+        887150449
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2024-11-12T08:56:29Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Vue"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-891934313",
+      "title": "MyProject",
+      "description": "所有Java小项目的集合",
+      "repositoryIds": [
+        891934313
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2024-11-21T08:12:17Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-892084114",
+      "title": "BookSystem",
+      "description": "一个图书管理后台系统，使用shiro进行权限管理，使用thymeleaf作为前端模版引擎",
+      "repositoryIds": [
+        892084114
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2024-11-21T13:35:37Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-937065725",
+      "title": "conc-server",
+      "description": "专注度系统Java服务端",
+      "repositoryIds": [
+        937065725
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-02-22T08:48:34Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-939875162",
+      "title": "conc-admin",
+      "description": "专注度系统Vue前端",
+      "repositoryIds": [
+        939875162
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2025-02-27T08:52:57Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Vue"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-939876689",
+      "title": "conc-python-api",
+      "description": "专注度系统Python部分功能",
+      "repositoryIds": [
+        939876689
+      ],
+      "category": "Python",
+      "categorySource": "language",
+      "date": "2025-02-27T08:56:03Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Python"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-948924484",
+      "title": "gin_demo",
+      "description": "使用Go + Gin实现了用户身份认证",
+      "repositoryIds": [
+        948924484
+      ],
+      "category": "Go",
+      "categorySource": "language",
+      "date": "2025-03-15T09:16:37Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Go"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-950001316",
+      "title": "vue3-project-demo",
+      "description": "一个完整的Vue3学习教程类项目，共勉！",
+      "repositoryIds": [
+        950001316
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2025-03-17T13:28:58Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Vue"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-951786393",
+      "title": "01Petard",
+      "description": "Github个人主页描述文件",
+      "repositoryIds": [
+        951786393
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2025-03-20T08:40:52Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-952985546",
+      "title": "lesson",
+      "description": "",
+      "repositoryIds": [
+        952985546
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-03-22T09:57:21Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "blog-star-trail",
+      "title": "blog-star-trail",
+      "description": "基于Vue3的 \"你的名字\" 主题博客引导页",
+      "repositoryIds": [
+        954458425
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2025-03-25T05:43:21Z",
+      "dateSource": "github",
+      "featured": true,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Vue",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-959599470",
+      "title": "Revert-My-Code",
+      "description": "没写完的代码提交了，如何用git撤回已push的代码？通过这个项目学习一下",
+      "repositoryIds": [
+        959599470
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2025-04-03T03:41:46Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-977472653",
+      "title": "app-docker-compose",
+      "description": "采用docker-compose来管理项目的部署",
+      "repositoryIds": [
+        977472653
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-05-04T09:40:19Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-983366779",
+      "title": "spring-hzx",
+      "description": "基于JDK21+SpringBoot3的后端开发框架",
+      "repositoryIds": [
+        983366779
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-05-14T09:22:50Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-987393664",
+      "title": "Pintree-fav",
+      "description": "用pintree生成可分享的网络收藏夹",
+      "repositoryIds": [
+        987393664
+      ],
+      "category": "CSS",
+      "categorySource": "language",
+      "date": "2025-05-21T02:36:42Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "CSS"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-994177737",
+      "title": "blog-mono",
+      "description": "基于JDK17 + SpringBoot 3 + thymeleaf 的前后端不分离小而美博客",
+      "repositoryIds": [
+        994177737
+      ],
+      "category": "JavaScript",
+      "categorySource": "language",
+      "date": "2025-06-01T11:41:39Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "JavaScript"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-995409380",
+      "title": "beauty-media-info",
+      "description": "基于mediainfo指令二次开发的MacOS终端媒体文件信息查看脚本",
+      "repositoryIds": [
+        995409380
+      ],
+      "category": "Shell",
+      "categorySource": "language",
+      "date": "2025-06-03T12:44:36Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Shell"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1000278580",
+      "title": "uv_tools_project",
+      "description": "Python工具库",
+      "repositoryIds": [
+        1000278580
+      ],
+      "category": "Python",
+      "categorySource": "language",
+      "date": "2025-06-11T14:30:07Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Python"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1014343133",
+      "title": "consultant",
+      "description": "基于LangChain4j的RAG知识库AI志愿填报顾问系统",
+      "repositoryIds": [
+        1014343133
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-07-05T14:31:29Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 2,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1015376446",
+      "title": "spring-ai-protal",
+      "description": "基于Spring AI的聊天机器人 前端页面",
+      "repositoryIds": [
+        1015376446
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2025-07-07T12:10:37Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Vue"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1015380108",
+      "title": "spring-ai-backend",
+      "description": "基于Spring AI的聊天机器人",
+      "repositoryIds": [
+        1015380108
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-07-07T12:17:18Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1044781004",
+      "title": "spring-cloud-hzx",
+      "description": "基于JDK17+SpringCloud Alibaba的学习项目",
+      "repositoryIds": [
+        1044781004
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-08-26T07:44:43Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1067639932",
+      "title": "laravel-study",
+      "description": "学习一下PHP的Laravel框架",
+      "repositoryIds": [
+        1067639932
+      ],
+      "category": "PHP",
+      "categorySource": "language",
+      "date": "2025-10-01T06:54:13Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "PHP"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1102410139",
+      "title": "demo_springboot4",
+      "description": "学习一下Spring Boot 4 和一些新的包",
+      "repositoryIds": [
+        1102410139
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-11-23T12:15:21Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1106137053",
+      "title": "bit-visit-booking",
+      "description": "北京理工大学访客预约系统",
+      "repositoryIds": [
+        1106137053
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2025-11-28T17:32:02Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1106902527",
+      "title": "off-work-time",
+      "description": "",
+      "repositoryIds": [
+        1106902527
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2025-11-30T07:13:10Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1107513783",
+      "title": "zhipu-springai-demo",
+      "description": "学习如何调用智谱清言官方的Spring AI框架",
+      "repositoryIds": [
+        1107513783
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2025-12-01T08:43:41Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1122319914",
+      "title": "What-is-your-IPv4",
+      "description": "看看你的IPv4地址",
+      "repositoryIds": [
+        1122319914
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2025-12-24T13:41:29Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "flight-booking",
+      "title": "Flight Booking",
+      "description": "基于Spring AI的现代化航班预订平台",
+      "repositoryIds": [
+        1156966568,
+        1156967537
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2026-02-13T09:11:21Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java",
+        "Vue"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1164513928",
+      "title": "TerminalStart",
+      "description": "Chromium Extension for Tech Bros",
+      "repositoryIds": [
+        1164513928
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2026-02-23T07:02:16Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1174028731",
+      "title": "demo_kotlin",
+      "description": "",
+      "repositoryIds": [
+        1174028731
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2026-03-06T01:58:00Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1177445872",
+      "title": "particle-saturn",
+      "description": "基于摄像头和手势操控的粒子土星特效实现",
+      "repositoryIds": [
+        1177445872
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2026-03-10T03:07:24Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1177448992",
+      "title": "hand-gesture-detection",
+      "description": "基于MediaPipe人体骨架检测的摄像头手势捕捉功能的实现",
+      "repositoryIds": [
+        1177448992
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2026-03-10T03:12:49Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1177451706",
+      "title": "pixel-morph-generator",
+      "description": "像素变形生成器",
+      "repositoryIds": [
+        1177451706
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2026-03-10T03:17:28Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "hajimi-encoder",
+      "title": "hajimi-encoder",
+      "description": "基于三进制映射的文本可逆编码与混淆算法",
+      "repositoryIds": [
+        1177463497
+      ],
+      "category": "CSS",
+      "categorySource": "language",
+      "date": "2026-03-10T03:38:34Z",
+      "dateSource": "github",
+      "featured": true,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "CSS",
+        "JavaScript",
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1181573801",
+      "title": "example-springboot",
+      "description": "一个基于continew框架的SpringBoot脚手架",
+      "repositoryIds": [
+        1181573801
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2026-03-14T10:27:06Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": true,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1184908936",
+      "title": "blog-public",
+      "description": "一个NextJs项目写的开源blog，让你不写代码就开始写 blog，管理 blog 内容。无需服务器，无需费用。",
+      "repositoryIds": [
+        1184908936
+      ],
+      "category": "TypeScript",
+      "categorySource": "language",
+      "date": "2026-03-18T03:37:53Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "TypeScript"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1186288035",
+      "title": "ai-agent-station-web",
+      "description": "",
+      "repositoryIds": [
+        1186288035
+      ],
+      "category": "TypeScript",
+      "categorySource": "language",
+      "date": "2026-03-19T13:21:11Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "TypeScript"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1186314063",
+      "title": "ai-agent-station-backend",
+      "description": "",
+      "repositoryIds": [
+        1186314063
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2026-03-19T13:52:11Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1195044389",
+      "title": "flare-stack-blog",
+      "description": "A modern full-stack blog CMS driven by Cloudflare. | 基于 Cloudflare 生态的全栈现代化博客 CMS。",
+      "repositoryIds": [
+        1195044389
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2026-03-29T06:17:07Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1237336881",
+      "title": "agent-client-server",
+      "description": "智能咖啡客服-服务端",
+      "repositoryIds": [
+        1237336881
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2026-05-13T05:02:25Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1237337343",
+      "title": "agent-client-web",
+      "description": "智能咖啡客服-客户端",
+      "repositoryIds": [
+        1237337343
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2026-05-13T05:03:14Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Vue"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1237338719",
+      "title": "agent-order-server",
+      "description": "智能咖啡客服-客户端订单MCP功能",
+      "repositoryIds": [
+        1237338719
+      ],
+      "category": "Java",
+      "categorySource": "language",
+      "date": "2026-05-13T05:05:22Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1308607653",
+      "title": "wifi-device-inspector",
+      "description": "看看谁在你的 Wi-Fi 网络里",
+      "repositoryIds": [
+        1308607653
+      ],
+      "category": "Python",
+      "categorySource": "language",
+      "date": "2026-07-22T09:04:16Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Python"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "trackfit",
+      "title": "TrackFit",
+      "description": "个人健康信息管理平台。记录身体变化，看见习惯的影响！",
+      "repositoryIds": [
+        1322390092
+      ],
+      "category": "TypeScript",
+      "categorySource": "language",
+      "date": "2026-08-04T01:46:35Z",
+      "dateSource": "github",
+      "featured": true,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "TypeScript",
+        "Vue",
+        "CSS",
+        "JavaScript",
+        "Dockerfile"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1325006426",
+      "title": "zhuzhiliao",
+      "description": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。",
+      "repositoryIds": [
+        1325006426
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2026-08-06T09:13:46Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "autofill",
+      "title": "Autofill",
+      "description": "基于大语言模型的浏览器表单辅助填写扩展插件",
+      "repositoryIds": [
+        1330454916
+      ],
+      "category": "TypeScript",
+      "categorySource": "language",
+      "date": "2026-08-11T03:27:09Z",
+      "dateSource": "github",
+      "featured": true,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "HTML"
+      ],
+      "links": [],
+      "milestones": [
+        {
+          "id": "release-368350549",
+          "date": "2026-08-11T05:40:27Z",
+          "title": "Autofill · 1.0.0",
+          "source": "github",
+          "sourceUrl": "https://github.com/01Petard/Autofill/releases/tag/1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "repo-1336721922",
+      "title": "GiscusDiscussions",
+      "description": "giscus评论区",
+      "repositoryIds": [
+        1336721922
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2026-08-17T05:39:14Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1347513547",
+      "title": "AxiomPlatformSuite-ml-web",
+      "description": "",
+      "repositoryIds": [
+        1347513547
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2026-08-26T15:43:41Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Vue"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "ai-orchestrator",
+      "title": "AI Orchestrator",
+      "description": "仿ChatGPT风格的在线Agent应用演示Demo，后端：https://github.com/01Petard/ai-orchestrator-server · 基于SpringBoot 4 和 Spring AI 2的在线Agent应用服务端学习与企业化Demo，前端：https://github.com/01Petard/ai-orchestrator-web",
+      "repositoryIds": [
+        1358837986,
+        1358838255
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2026-09-06T06:02:56Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 1,
+      "technologies": [
+        "Vue",
+        "Java"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repo-1369135560",
+      "title": "Terra-Height-Survey",
+      "description": "⚠️⚠️⚠️Warning：NSFW⚠️⚠️⚠️（R18同人向：泰拉身高体检）",
+      "repositoryIds": [
+        1369135560
+      ],
+      "category": "HTML",
+      "categorySource": "language",
+      "date": "2026-09-14T01:55:30Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "HTML"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "e-hentai-fetcher",
+      "title": "E-Hentai-Fetcher",
+      "description": "面向 E-Hentai / ExHentai 的第三方图库客户端与替代前端",
+      "repositoryIds": [
+        1391090135
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2026-09-27T16:02:04Z",
+      "dateSource": "github",
+      "featured": true,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Vue",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Dockerfile",
+        "Shell"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "backflow",
+      "title": "Backflow",
+      "description": "",
+      "repositoryIds": [
+        1402580298
+      ],
+      "category": "Vue",
+      "categorySource": "language",
+      "date": "2026-10-03T02:52:09Z",
+      "dateSource": "github",
+      "featured": false,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [
+        "Vue"
+      ],
+      "links": [],
+      "milestones": []
+    },
+    {
+      "id": "repotime",
+      "title": "项目时光机",
+      "description": "",
+      "repositoryIds": [
+        1409843462
+      ],
+      "category": "未分类",
+      "categorySource": "language",
+      "date": "2026-10-08T06:23:36Z",
+      "dateSource": "github",
+      "featured": true,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "technologies": [],
+      "links": [],
+      "milestones": []
+    }
+  ],
+  "aliases": {
+    "repo-1409843462": "repotime",
+    "repo-1391090135": "e-hentai-fetcher",
+    "repo-1330454916": "autofill",
+    "repo-1177463497": "hajimi-encoder",
+    "repo-1322390092": "trackfit",
+    "repo-954458425": "blog-star-trail",
+    "repo-230755726": "tankwar",
+    "repo-1156966568": "flight-booking",
+    "repo-1156967537": "flight-booking",
+    "repo-1358837986": "ai-orchestrator",
+    "repo-1358838255": "ai-orchestrator",
+    "repo-1402580298": "backflow"
+  },
+  "relations": []
+}
