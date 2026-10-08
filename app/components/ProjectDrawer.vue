@@ -13,7 +13,7 @@ const open = computed({ get: () => !!props.project, set: (value: boolean) => { i
       <div class="tech-tags"><span v-for="technology in project.technologies.slice(0, 6)" :key="technology">{{ technology }}</span></div>
       <dl class="drawer-facts"><div><dt>{{ project.dateSource === 'personal' ? '项目开始 · 个人记录' : 'GitHub 仓库创建日期' }}</dt><dd>{{ dateLabel(project.date) }}</dd></div><div><dt>仓库状态</dt><dd>{{ project.archived ? '已归档' : '未归档' }}{{ project.fork ? ' · Fork' : '' }}</dd></div></dl>
       <NuxtLink :to="projectPath(project.id)" class="button primary full" @click="emit('close')">查看完整档案<AppIcon name="arrow" /></NuxtLink>
-      <div class="drawer-repos"><span class="eyebrow">关联仓库</span><a v-for="repo in archive.repositories.filter(repo => project?.repositoryIds.includes(repo.id))" :key="repo.id" :href="repo.url" target="_blank" rel="noopener noreferrer"><AppIcon name="github" />{{ repo.name.replace(/RepoTime/g, '项目时光机') }}<AppIcon name="external" :size="14" /></a></div>
+      <div class="drawer-repos"><span class="eyebrow">关联仓库</span><a v-for="repo in archive.repositories.filter(repo => project?.repositoryIds.includes(repo.id))" :key="repo.id" :href="repo.url" target="_blank" rel="noopener noreferrer"><AppIcon name="github" />{{ repo.name }}<AppIcon name="external" :size="14" /></a></div>
       </div></div></template>
   </USlideover>
 </template>

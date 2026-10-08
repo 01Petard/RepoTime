@@ -42,6 +42,23 @@ test('project detail and merged repository aliases are directly accessible', asy
   expect(await page.locator('body').evaluate(element => element.scrollWidth <= window.innerWidth)).toBe(true)
 })
 
+test('RepoTime keeps its actual project and repository names', async ({ page }) => {
+  const repository = snapshot.repositories.find(repo => repo.name === 'RepoTime')
+  const entry = snapshot.projects.find(project => project.repositoryIds.includes(repository?.id ?? 0))
+  test.skip(!entry || !repository, 'This account has no RepoTime repository')
+  expect(entry!.title).toBe('RepoTime')
+  await page.goto('/')
+  await expect(page.locator('.sky-exhibit h3').filter({ hasText: /^RepoTime$/ })).toBeVisible()
+  await page.goto(base)
+  await page.getByRole('searchbox', { name: '搜索项目' }).fill('RepoTime')
+  await expect(page.locator('.project-card h3').first()).toHaveText('RepoTime')
+  await page.goto(`${base}/projects/${entry!.id}`)
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('RepoTime')
+  await expect(page.locator('.repository-row strong').filter({ hasText: repository!.fullName })).toBeVisible()
+  await expect(page.locator('.repository-row').filter({ hasText: repository!.fullName })).toHaveAttribute('href', repository!.url)
+  await expect(page.locator('body')).not.toContainText('项目时光机')
+})
+
 test('filters persist in URLs and the timeline can expand months', async ({ page }) => {
   await page.goto(`${base}/timeline?forks=1&archived=0`)
   await expect(page.getByRole('checkbox', { name: '显示 Fork 项目' })).toBeChecked()
@@ -177,10 +194,10 @@ test('project details show the latest three commits from the static snapshot', a
   }
   expect(await page.locator('body').evaluate(element => element.scrollWidth <= window.innerWidth)).toBe(true)
   await page.goto('/')
-  await expect(page.locator('.home-commit time')).toHaveCount(Math.min(3, snapshot.repositories.reduce((total, repo) => total + repo.commits.length, 0)))
+  await expect(page.locator('.home-commit time')).toHaveCount(Math.min(5, snapshot.repositories.reduce((total, repo) => total + repo.commits.length, 0)))
   for (const time of await page.locator('.home-commit time').all()) {
     const date = (await time.getAttribute('datetime'))!
-    await expect(time).toHaveText(new Date(date).toISOString().replace('T', ' ').replace('.000Z', ' UTC'))
+    await expect(time).toHaveText(`${new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23' }).format(new Date(date))} UTC+8`)
   }
   expect(await page.locator('body').evaluate(element => element.scrollWidth <= window.innerWidth)).toBe(true)
   expect(requests).toEqual([])
@@ -257,4 +274,42 @@ test('timeline appends events on scroll and renders an unloaded year before jump
   await expect(page.locator(`#year-${target}`)).toBeInViewport()
   const ids = await entries.evaluateAll(entries => entries.map(entry => entry.getAttribute('data-event')))
   expect(new Set(ids).size).toBe(ids.length)
+})
+
+
+test('archive pages share typography and card design with borderless top navigation', async ({ page }) => {
+  const styles = []
+  for (const path of [base, `${base}/timeline`]) {
+    await page.goto(path)
+    const timeline = path.endsWith('/timeline')
+    styles.push(await page.evaluate(({ timeline }) => {
+      const style = (selector: string) => getComputedStyle(document.querySelector(selector)!)
+      const card = style(timeline ? '.timeline-entry-content' : '.project-card')
+      const title = style(timeline ? '.timeline-entry-content h3' : '.project-card h3')
+      const description = style(timeline ? '.timeline-entry-content > p' : '.project-card p')
+      return {
+        heading: style('.explore-heading h1').fontSize,
+        headingWeight: style('.explore-heading h1').fontWeight,
+        intro: style('.explore-heading p:not(.eyebrow)').fontSize,
+        period: style('.heading-period').display,
+        switchSize: style('.explore-heading > .text-link').fontSize,
+        cardTitle: title.fontSize,
+        cardTitleWeight: title.fontWeight,
+        cardDescription: description.fontSize,
+        cardLineHeight: description.lineHeight,
+        cardBorder: card.borderColor,
+        cardRadius: card.borderRadius,
+        cardBackground: card.backgroundImage,
+        categorySize: style(timeline ? '.timeline-entry-content .eyebrow' : '.project-card-meta').fontSize,
+        technologySize: style(timeline ? '.timeline-tech > span' : '.card-technologies > span').fontSize,
+      }
+    }, { timeline }))
+    for (const link of await page.locator('.site-header nav a').all()) {
+      const nav = await link.evaluate(element => ({ border: getComputedStyle(element).borderWidth, background: getComputedStyle(element).backgroundColor }))
+      expect(nav).toEqual({ border: '0px', background: 'rgba(0, 0, 0, 0)' })
+    }
+    expect(await page.locator('body').evaluate(element => element.scrollWidth <= innerWidth)).toBe(true)
+  }
+  expect(styles[1]).toEqual(styles[0])
+  expect(styles[0]!.period).toBe('block')
 })

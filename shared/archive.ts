@@ -119,7 +119,7 @@ export function timelineEvents(projects: Project[]) {
     ...project.milestones.map(milestone => ({ id: milestone.id, project, date: milestone.date, title: milestone.title, kind: 'milestone' as const, source: milestone.source })),
   ]).sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id))
 }
-export const palette = ['#94c5ff', '#b7a3ff', '#6ed4bc', '#f0bd7b', '#ee99b9', '#86b5e4', '#b6c789']
+export const palette = ['#75cfff', '#c7a0ff', '#65ebbc', '#ffd477', '#ff91b8', '#ffac86', '#d6ec82']
 export function categoryColor(category: string): string {
   let hash = 0
   for (const character of category) hash = ((hash * 31) + character.charCodeAt(0)) >>> 0
