@@ -30,7 +30,7 @@ const recent = archive.repositories.flatMap(repo => (repo.commits ?? []).map(com
   </div>
 </template>
 <style scoped>
-.home-hero { grid-template-columns: .9fr 1.1fr; gap: 48px; padding-top: 80px; padding-bottom: 70px; }
+.home-hero { grid-template-columns: .9fr 1.1fr; gap: 48px; padding-top: 20px; padding-bottom: 70px; }
 .home-discovery { padding: 80px 0 0; }
 .discovery-heading { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 30px; }
 .discovery-heading h2, .home-signals h2 { font-size: 30px; font-weight: 550; letter-spacing: -.03em; margin: 0 0 12px; }
@@ -64,6 +64,6 @@ const recent = archive.repositories.flatMap(repo => (repo.commits ?? []).map(com
 .track-line i:last-child { width: 8px; height: 8px; background: #edf5ff; }
 .finale-note { display: flex; justify-content: space-between; gap: 20px; margin-top: 18px; color: #96a9c3; font-size: 11px; }
 @media (max-width: 1000px) { .home-hero { gap: 24px; } .home-signals { gap: 40px; } }
-@media (max-width: 768px) { .home-finale { margin-top: 55px; padding: 40px 0 45px; } .finale-heading { align-items: flex-start; flex-direction: column; gap: 22px; } .finale-link { width: 100%; font-size: 13px; } .finale-track { margin-top: 32px; gap: 12px; } .finale-note { font-size: 10px; flex-wrap: wrap; gap: 6px; } .language-links { grid-auto-rows: minmax(48px, auto); } .home-hero { grid-template-columns: 1fr; padding-top: 42px; padding-bottom: 35px; gap: 40px; } .home-discovery { padding-top: 55px; } .discovery-heading { align-items: flex-start; flex-direction: column; gap: 16px; } .discovery-heading h2 { font-size: 25px; } .home-signals { grid-template-columns: 1fr; padding-top: 55px; gap: 48px; } .home-signals h2 { font-size: 24px; } }
+@media (max-width: 768px) { .home-finale { margin-top: 55px; padding: 40px 0 45px; } .finale-heading { align-items: flex-start; flex-direction: column; gap: 22px; } .finale-link { width: 100%; font-size: 13px; } .finale-track { margin-top: 32px; gap: 12px; } .finale-note { font-size: 10px; flex-wrap: wrap; gap: 6px; } .language-links { grid-auto-rows: minmax(48px, auto); } .home-hero { grid-template-columns: 1fr; padding-top: 12px; padding-bottom: 35px; gap: 40px; } .home-discovery { padding-top: 55px; } .discovery-heading { align-items: flex-start; flex-direction: column; gap: 16px; } .discovery-heading h2 { font-size: 25px; } .home-signals { grid-template-columns: 1fr; padding-top: 55px; gap: 48px; } .home-signals h2 { font-size: 24px; } }
 @media (prefers-reduced-motion: reduce) { .finale-link svg { transition: none; } }
 </style>
