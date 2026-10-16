@@ -1,12 +1,42 @@
-# RepoTime
+<div align="center">
+  <img src="public/favicon.svg" width="80" height="80" alt="RepoTime · 代码时光机 标志">
+  <h1>RepoTime · 代码时光机</h1>
+  <p><strong>每一个项目，都有自己的来处。</strong></p>
+  <p>把 GitHub 公开仓库整理成可浏览的开发者档案：项目、时间轴与交互星图，记录一路写下的代码。</p>
+  <p>
+    <img src="https://img.shields.io/badge/version-0.1.0-7c3aed" alt="版本 0.1.0">
+    <img src="https://img.shields.io/badge/Nuxt-4-00dc82" alt="Nuxt 4">
+    <img src="https://img.shields.io/badge/TypeScript-3178c6" alt="TypeScript">
+    <img src="https://img.shields.io/badge/deploy-static-2496ed" alt="纯静态部署">
+  </p>
+  <p>
+    <a href="#你可以用它做什么">功能</a> ·
+    <a href="#快速开始">快速开始</a> ·
+    <a href="#配置账号与项目">整理项目</a> ·
+    <a href="#部署到-vercel">部署</a>
+  </p>
+</div>
 
-可自行部署的 GitHub 开发者档案站。每个实例展示一个配置账号的公开自有仓库，支持项目合并、精选、分类、时间轴与交互星图。
+## 你可以用它做什么
+
+- **整理一份作品档案**：每个实例对应一个 GitHub 账号，自动收录其公开自有仓库。
+- **把多个仓库讲成一个项目**：用稳定的仓库数字 ID 合并前后端，补充精选、封面、缘由与里程碑。
+- **沿时间回看开发过程**：区分仓库创建、GitHub Release 与个人记录，展示近期提交。
+- **在星图里探索作品**：桌面端支持缩放、筛选、复位与全屏，移动端提供项目列表与时间轴。
+
+| 能力 | 行为 |
+| --- | --- |
+| 构建时同步 | 读取 GitHub 公开数据，生成快照后预渲染所有公开页面 |
+| 内容整理 | 精选、仓库合并、排除、外链、自定义封面和明确的项目关联 |
+| 项目分类 | 按 GitHub 主语言统一分类 |
+| 分享与访问 | 静态详情、旧仓库别名、分享元信息与静态 404 |
+| 部署 | 发布静态文件，Token 只留在构建环境 |
 
 **修改代码或 JSON → 构建时同步 GitHub → 生成静态页面 → 访客浏览。**
 
-所有者通过源码仓库和部署平台维护内容。站点没有登录、数据库、编辑接口或同步接口；GitHub 发生变化后，重新部署才会更新页面。
+所有者通过源码仓库和部署平台维护内容。没有登录、数据库、在线编辑或运行时同步接口；GitHub 数据变化后，需要重新部署才会更新。
 
-## 本地运行
+## 快速开始
 
 使用 Node.js 24 和项目指定版本的 pnpm。
 
@@ -18,7 +48,7 @@ pnpm dev
 
 `pnpm sync` 读取 `config/repotime.json` 并生成 `.generated/archive.json`。快照不提交 Git，不手工编辑。首次启动必须先生成快照。
 
-可复制 `.env.example` 为 `.env`，配置可选的 `GITHUB_TOKEN`。Token 只用于构建阶段，提高 GitHub 请求额度；无需私有仓库权限。不要使用 `NUXT_PUBLIC_*` 或其他公开变量保存 Token。
+可运行 `[ -f .env ] || cp .env.example .env`，配置可选的 `GITHUB_TOKEN`。Token 只用于构建阶段，提高 GitHub 请求额度；无需私有仓库权限。不要使用 `NUXT_PUBLIC_*` 或其他公开变量保存 Token。
 
 ```sh
 pnpm generate        # 重新同步一次，然后生成所有页面
@@ -96,7 +126,31 @@ node --input-type=module -e 'import a from "./.generated/archive.json" with { ty
 
 仅发布 `.output/public`。不使用 SSR Functions、SPA fallback rewrite 或运行中的 Nuxt 服务；未知账号与项目返回静态 404。
 
-## 验证
+## 展示规则与数据来源
+
+| 内容 | 来源与规则 |
+| --- | --- |
+| 仓库范围 | 默认隐藏 Fork，保留归档项目；仅收录公开自有仓库 |
+| 时间来源 | 仓库创建日期、GitHub Release、个人里程碑分别标注 |
+| 近期提交 | 每个仓库取默认分支最近 3 条；合并项目按时间汇总取最新 3 条 |
+| 精选项目 | 额外同步语言明细与最多 10 条近期 Release |
+| 默认封面 | 根据描述关键词选择 Lucide 图标，配色和构图由稳定项目 ID 决定 |
+| 访问入口 | 星图点击直达 GitHub；合并项目打开配置中的首个仓库 |
+
+默认封面是确定性的关键词规则，不依赖 AI 服务，也不改变语言分类。用途关键词优先于 AI 等实现技术；描述为空或不匹配时使用几何标识，无需为每个项目准备图片。
+
+<details>
+<summary><strong>星图的活跃度与筛选如何工作？</strong></summary>
+
+每颗项目星显示完整项目名和创建日期。大小、亮度与光晕按最新 GitHub 推送时间分成 1 周、1 个月、3 个月、1 年及超过 1 年五档，以快照同步时间为基准，月份使用 UTC 日历边界。
+
+合并项目取成员仓库中的最新推送时间，缺少推送时间时使用创建时间。坐标始终按完整快照计算；筛选只改变可见节点与视野，避免星星反复重排。移动端使用项目列表，仍可查看时间轴与完整档案。
+
+</details>
+
+空仓库显示暂无提交，不读取全量历史。仓库数量较多时，逐仓库请求可能超过匿名 API 额度，建议配置构建专用 Token。
+
+## 开发与验证
 
 ```sh
 pnpm test
@@ -109,10 +163,18 @@ pnpm test:e2e
 
 单元测试覆盖分页、去重、空账号、限流、失败重试、原子快照、配置变化、项目合并与日期来源。浏览器测试覆盖桌面和手机、静态详情与别名直达、查询参数、时间轴、键盘打开仓库、缩放复位及全屏。产物检查遍历所有公开路由，并扫描 HTML、JSON 和 JavaScript 中的 API 地址与 Token。
 
-未设置 `cover` 时，页面根据描述中的中英文用途关键词选择 Lucide 图标；具体用途优先于 AI 等实现技术。配色与构图由稳定项目 ID 决定，描述为空或不匹配时使用几何标识。图案由同一个组件生成，不新增项目专用文件或 API 请求。这是确定性的关键词规则，不依赖 AI 服务，也不会改变项目分类。
-
-默认隐藏 Fork、保留归档项目。开发宇宙默认显示项目列表，桌面可切换星图；每颗项目星常驻显示完整项目名和创建日期。星星大小、亮度与光晕按最新 GitHub 推送时间分为 1 周、1 个月、3 个月、1 年及超过 1 年五档；基准为快照同步时间，月份使用 UTC 日历边界，合并项目取最新成员仓库时间，无推送时间时使用仓库创建时间。点击星星直接在新窗口打开 GitHub，合并项目使用配置的第一个仓库。筛选只影响当前浏览，星图以完整快照计算稳定坐标，筛选时只改变可见节点和视野。移动端提供项目列表，时间轴与完整档案同样可浏览。
-
-公开仓库创建日期、GitHub Release 和个人记录分别标注来源。精选仓库同步语言明细和最多 10 条近期 Release；每个收录仓库同步默认分支最近 3 条提交，合并项目按提交时间汇总取最新 3 条，显示作者、UTC 时间、说明和 GitHub 链接；空仓库显示暂无记录。不读取全量提交历史，不展示私有仓库。仓库较多时这些请求可能超出匿名额度，建议配置构建专用 Token。
-
 参考：[Nuxt 静态生成](https://nuxt.com/docs/4.x/api/commands/generate)、[GitHub 仓库接口](https://docs.github.com/en/rest/repos/repos#list-repositories-for-a-user)、[GitHub API 限额](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api)、[Vercel 环境变量](https://vercel.com/docs/environment-variables)。
+
+## 定时更新与维护
+
+[每日重新部署工作流](.github/workflows/daily-redeploy.yml) 通过 Vercel Deploy Hook 触发构建。使用前，在 Vercel 创建指向目标分支的 Deploy Hook，并在 GitHub 仓库 Actions Secrets 中设置 **`VERCEL_DEPLOY_HOOK`**。未配置时工作流会报错；无需定时更新可停用该工作流。
+
+Hook 地址相当于部署凭据，不要写进 README 或提交到配置文件。它只触发部署，实际同步仍由 Vercel 的 `pnpm generate` 完成。
+
+备份源码和 `config/repotime.json` 即可保留人工整理信息；`.generated/archive.json` 是可重新生成的构建快照。
+
+## 文档与反馈
+
+核心配置见 [config/repotime.json](config/repotime.json)，同步实现见 [scripts/sync-github.ts](scripts/sync-github.ts)，公开产物检查见 [scripts/verify-output.ts](scripts/verify-output.ts)。
+
+欢迎通过 [Issues](https://github.com/01Petard/RepoTime/issues) 反馈，附上脱敏配置、构建错误或复现步骤，不附带 GitHub Token 或 Deploy Hook。当前仓库未提供 `LICENSE` 文件。
